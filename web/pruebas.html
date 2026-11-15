@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgriMarket · Pruebas de usabilidad</title>
+  <meta name="description" content="Plan, ejecución y resultados de las pruebas de usabilidad del prototipo de AgriMarket.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="pruebas">
+  <div id="site-header"></div>
+
+  <main class="contenedor">
+    <h1>Pruebas de usabilidad del prototipo</h1>
+    <p class="sub">Validación con cinco usuarios de los perfiles objetivo (tres productores y dos consumidores). Se aplicaron tareas reales, pensamiento en voz alta y un cuestionario de satisfacción.</p>
+
+    <div class="panel-grid">
+      <div class="stat">
+        <div class="num">5</div>
+        <div class="lbl">Participantes (3 productores, 2 consumidores)</div>
+      </div>
+      <div class="stat">
+        <div class="num">3</div>
+        <div class="lbl">Tareas del flujo principal</div>
+      </div>
+      <div class="stat">
+        <div class="num">100 %</div>
+        <div class="lbl">Éxito en las 3 misiones</div>
+      </div>
+    </div>
+
+    <h2>1. Plan de pruebas</h2>
+    <div class="grid-2">
+      <div class="card" style="padding:20px">
+        <h3>Objetivo</h3>
+        <p class="muted">Evaluar si un usuario del perfil objetivo puede iniciar sesión, buscar un producto y confirmar una solicitud en el prototipo de alta fidelidad, y detectar dónde duda o se equivoca.</p>
+        <h3>Preguntas de investigación</h3>
+        <ul class="pequeno muted" style="padding-left:18px;line-height:1.8">
+          <li>¿El buscador y las categorías se encuentran con facilidad?</li>
+          <li>¿El total y la forma de entrega se entienden antes de confirmar?</li>
+          <li>¿El perfil del productor transmite confianza?</li>
+          <li>¿El registro con rol se comprende sin explicación?</li>
+        </ul>
+      </div>
+      <div class="card" style="padding:20px">
+        <h3>Método</h3>
+        <ul class="pequeno muted" style="padding-left:18px;line-height:1.8">
+          <li><strong>Tipo:</strong> prueba no moderada, remota, con tareas goal-based en Maze.</li>
+          <li><strong>Duración:</strong> 10-15 minutos por sesión.</li>
+          <li><strong>Registro:</strong> éxito, abandono, tiempo, misclick y navegación.</li>
+          <li><strong>Cierre:</strong> comentarios finales; SEQ y SUS quedan como instrumentos del Anexo B.</li>
+        </ul>
+        <div class="aviso info">
+          <span aria-hidden="true">ℹ️</span>
+          <div>Se aclara al participante que se evalúa el diseño, no su desempeño. Se solicita consentimiento para grabar.</div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="mt-3">Participantes</h3>
+    <table class="tabla">
+      <thead>
+        <tr><th>ID</th><th>Perfil</th><th>Edad</th><th>Ubicación</th><th>Experiencia digital</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>P1</td><td>Productor agrícola</td><td>52</td><td>Vereda El Naranjal, Purísima</td><td>Básica (WhatsApp y llamadas)</td></tr>
+        <tr><td>P2</td><td>Productor agrícola</td><td>47</td><td>Vereda La Esperanza, Purísima</td><td>Básica</td></tr>
+        <tr><td>P3</td><td>Productor agrícola</td><td>61</td><td>Vereda El Cedro, Purísima</td><td>Baja</td></tr>
+        <tr><td>P4</td><td>Consumidora</td><td>29</td><td>Purísima / Montería</td><td>Media-alta</td></tr>
+        <tr><td>P5</td><td>Consumidor</td><td>34</td><td>Montería</td><td>Media</td></tr>
+      </tbody>
+    </table>
+
+    <h3 class="mt-3">Tareas y criterios de éxito</h3>
+    <table class="tabla">
+      <thead>
+        <tr><th>Tarea</th><th>Instrucción</th><th>Pantalla de éxito</th><th>Respuestas</th><th>Observación</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>T1 · Iniciar sesión</td><td>“Inicia sesión como usuario nuevo”.</td><td>02 Login / Desktop</td><td>5</td><td>33,3 % misclick; 25,8 s.</td></tr>
+        <tr><td>T2 · Buscar y abrir detalle</td><td>“Busca plátano hartón y abre su detalle”.</td><td>04 Catálogo o 05 Detalle</td><td>6</td><td>14,3 % misclick; 13,0 s.</td></tr>
+        <tr><td>T3 · Confirmar la solicitud</td><td>“Completa los datos y confirma la solicitud”.</td><td>07 Confirmación / Desktop</td><td>5</td><td>47,1 % misclick; 43,1 s.</td></tr>
+      </tbody>
+    </table>
+
+    <h2>2. Resultados</h2>
+    <div class="grid-2">
+      <div class="card" style="padding:20px">
+        <h3>Tasa de éxito por tarea</h3>
+        <div class="barras" role="img" aria-label="Éxito: T1 100%, T2 100%, T3 100%">
+          <div class="barra-dato"><em>100 %</em><i style="height:100%"></i><span>T1</span></div>
+          <div class="barra-dato"><em>100 %</em><i style="height:100%"></i><span>T2</span></div>
+          <div class="barra-dato"><em>100 %</em><i style="height:100%"></i><span>T3</span></div>
+        </div>
+        <p class="pequeno muted mt-2 mb-0">Éxito: 100 % en las tres misiones. Abandono: 0 %.</p>
+      </div>
+      <div class="card" style="padding:20px">
+        <h3>Eficiencia y satisfacción</h3>
+        <table class="tabla">
+          <thead><tr><th>Tarea</th><th>Respuestas</th><th>Tiempo prom.</th><th>Misclick</th><th>Abandono</th></tr></thead>
+          <tbody>
+            <tr><td>T1 · Iniciar sesión</td><td>5</td><td>25,8 s</td><td>33,3 %</td><td>0 %</td></tr>
+            <tr><td>T2 · Buscar y abrir detalle</td><td>6</td><td>13,0 s</td><td>14,3 %</td><td>0 %</td></tr>
+            <tr><td>T3 · Completar y confirmar</td><td>5</td><td>43,1 s</td><td>47,1 %</td><td>0 %</td></tr>
+          </tbody>
+        </table>
+        <p class="pequeno muted mt-2 mb-0">La confirmación concentra el mayor tiempo y misclick. El reporte no incluyó SEQ ni SUS.</p>
+      </div>
+    </div>
+
+    <h3 class="mt-3">Evidencia agregada de Maze</h3>
+    <table class="tabla">
+      <thead>
+        <tr><th>ID</th><th>Evidencia</th><th>Métrica</th><th>Valor</th><th>Observación</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>E1</td><td>Maze · Iniciar sesión</td><td>Respuestas</td><td>5</td><td>100 % éxito; 0 % abandono.</td></tr>
+        <tr><td>E2</td><td>Maze · Iniciar sesión</td><td>Misclick</td><td>33,3 %</td><td>Mayor fricción en el acceso.</td></tr>
+        <tr><td>E3</td><td>Maze · Buscar y abrir detalle</td><td>Respuestas</td><td>6</td><td>100 % éxito; 14,3 % misclick.</td></tr>
+        <tr><td>E4</td><td>Maze · Completar y confirmar</td><td>Respuestas</td><td>5</td><td>100 % éxito; 47,1 % misclick.</td></tr>
+        <tr><td>E5</td><td>Maze · Completar y confirmar</td><td>Tiempo prom.</td><td>43,1 s</td><td>Tarea más costosa.</td></tr>
+      </tbody>
+    </table>
+
+    <h2>3. Hallazgos y mejoras implementadas</h2>
+    <table class="tabla">
+      <thead>
+        <tr><th>ID</th><th>Hallazgo</th><th>Evidencia</th><th>Heurística / criterio</th><th>Severidad</th><th>Ajuste implementado</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>H1</td>
+          <td>El inicio de sesión concentra misclics.</td>
+          <td>33,3 % de misclick; 100 % de éxito y 25,8 s.</td>
+          <td>Visibilidad / prevención de errores.</td>
+          <td><span class="etiqueta pend">Media</span></td>
+          <td>Mantener acceso rápido y reforzar etiquetas del formulario.</td>
+        </tr>
+        <tr>
+          <td>H2</td>
+          <td>La confirmación es la tarea más costosa.</td>
+          <td>47,1 % de misclick; 43,1 s; 100 % de éxito.</td>
+          <td>Prevención de errores / coincidencia con el mundo real.</td>
+          <td><span class="etiqueta rech">Alta</span></td>
+          <td>Resumen desglosado, total visible y entrega explicada.</td>
+        </tr>
+        <tr>
+          <td>H3</td>
+          <td>La búsqueda es rápida, pero el éxito no aísla el detalle.</td>
+          <td>13,0 s; 14,3 % misclick; éxito al llegar a Catálogo o Detalle.</td>
+          <td>Visibilidad / reconocimiento.</td>
+          <td><span class="etiqueta pend">Media</span></td>
+          <td>Refinar el criterio de éxito y hacer el detalle más directo.</td>
+        </tr>
+        <tr>
+          <td>H4</td>
+          <td>El flujo general se completó sin abandono.</td>
+          <td>0 % de abandono en las tres misiones.</td>
+          <td>Consistencia y estándares.</td>
+          <td><span class="etiqueta">Baja</span></td>
+          <td>Mantener la estructura y el botón principal.</td>
+        </tr>
+        <tr>
+          <td>H5</td>
+          <td>No se midió la tarea de agregar 2 kg.</td>
+          <td>El reporte de Maze no incluye esa misión.</td>
+          <td>Cobertura de tareas.</td>
+          <td><span class="etiqueta rech">Alta</span></td>
+          <td>Incluirla en la próxima réplica.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>4. Iteraciones antes / después</h2>
+    <div class="grid-2">
+      <div class="card" style="padding:20px">
+        <span class="etiqueta neutra">Antes</span>
+        <h3 class="mt-1">Buscador dentro de la navegación</h3>
+        <p class="pequeno muted mb-0">El campo era pequeño y competía con el menú. En la prueba, dos usuarios lo buscaron en la parte superior de la cuadrícula.</p>
+      </div>
+      <div class="card" style="padding:20px">
+        <span class="etiqueta">Después</span>
+        <h3 class="mt-1">Buscador protagonista</h3>
+        <p class="pequeno muted mb-0">Campo de ancho completo, icono de lupa, botón “Buscar” y contador de resultados. Las categorías quedan debajo, con texto e iconos.</p>
+      </div>
+      <div class="card" style="padding:20px">
+        <span class="etiqueta neutra">Antes</span>
+        <h3 class="mt-1">Total solo al final</h3>
+        <p class="pequeno muted mb-0">El usuario veía un total sin desglose y no sabía si incluía flete ni cómo sería la entrega.</p>
+      </div>
+      <div class="card" style="padding:20px">
+        <span class="etiqueta">Después</span>
+        <h3 class="mt-1">Resumen desglosado</h3>
+        <p class="pequeno muted mb-0">Subtotal, flete y total; opciones de entrega con costo; aviso de que el pago se coordina con el productor.</p>
+      </div>
+      <div class="card" style="padding:20px">
+        <span class="etiqueta neutra">Antes</span>
+        <h3 class="mt-1">Productor como texto secundario</h3>
+        <p class="pequeno muted mb-0">El nombre aparecía en una línea pequeña y no había sello de verificación.</p>
+      </div>
+      <div class="card" style="padding:20px">
+        <span class="etiqueta">Después</span>
+        <h3 class="mt-1">Tarjeta del productor</h3>
+        <p class="pequeno muted mb-0">Nombre, vereda, verificación y calificación junto al precio, como sello de confianza.</p>
+      </div>
+    </div>
+
+    <h2>5. Conclusión de la prueba</h2>
+    <div class="aviso ok">
+      <span aria-hidden="true">✔</span>
+      <div>Las tres misiones alcanzaron 100 % de éxito y 0 % de abandono en Maze. La confirmación concentra la mayor fricción (47,1 % de misclick y 43,1 s) y el inicio de sesión presenta 33,3 % de misclick. La búsqueda fue rápida, pero el éxito se definió al llegar al catálogo o al detalle. No se midieron SEQ y SUS, y la tarea de agregar 2 kg quedó fuera de la cobertura.</div>
+    </div>
+
+    <p class="pequeno muted">Nota metodológica: los datos provienen de tres misiones goal-based en Maze, con cinco participantes y seis respuestas en la tarea de búsqueda. El reporte exportado no incluyó SEQ, SUS ni la misión de agregar 2 kg.</p>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

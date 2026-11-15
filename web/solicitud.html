@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgriMarket · Mi solicitud de compra</title>
+  <meta name="description" content="Revisa los productos, elige la entrega y confirma tu solicitud de compra.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="solicitud">
+  <div id="site-header"></div>
+
+  <main class="contenedor">
+    <h1>Mi solicitud de compra</h1>
+    <p class="sub">Revisa los productos, elige la forma de entrega y confirma tus datos.</p>
+
+    <div class="solicitud-grid">
+      <section aria-labelledby="productos-titulo">
+        <h2 id="productos-titulo" class="mt-0">Productos</h2>
+        <div id="lista-solicitud"></div>
+
+        <div id="solicitud-vacia" class="vacio oculto">
+          <p><strong>Tu solicitud está vacía.</strong></p>
+          <p><a class="link" href="catalogo.html">Ir al catálogo</a> para agregar productos.</p>
+        </div>
+
+        <h2>Datos de entrega</h2>
+        <form id="form-solicitud" novalidate>
+          <div class="fila">
+            <div class="campo">
+              <label for="nombre-recibe">Nombre de quien recibe <span class="obligatorio" aria-hidden="true">*</span></label>
+              <input id="nombre-recibe" type="text" placeholder="Ej. María Fernanda" autocomplete="name" required>
+            </div>
+            <div class="campo">
+              <label for="telefono">Teléfono / WhatsApp <span class="obligatorio" aria-hidden="true">*</span></label>
+              <input id="telefono" type="tel" placeholder="300 000 0000" autocomplete="tel" required>
+            </div>
+          </div>
+
+          <div class="campo">
+            <label for="direccion">Dirección o punto de referencia <span class="obligatorio" aria-hidden="true">*</span></label>
+            <input id="direccion" type="text" placeholder="Dirección de entrega o punto de encuentro" autocomplete="street-address" required>
+            <span class="ayuda">Ej. Barrio Centro, casa 12, frente a la plaza.</span>
+          </div>
+
+          <fieldset style="border:none;padding:0;margin:0 0 14px">
+            <legend class="etiqueta-campo">Forma de entrega</legend>
+            <div class="opciones-entrega">
+              <label class="opcion">
+                <input type="radio" name="entrega" value="domicilio" data-flete="5000" checked>
+                <span><b>Entrega a domicilio</b><small>Costo estimado de flete: $5.000. Se coordina con el productor.</small></span>
+              </label>
+              <label class="opcion">
+                <input type="radio" name="entrega" value="finca" data-flete="0">
+                <span><b>Recoger en la finca</b><small>Sin costo. Acuerdas hora y punto con el productor.</small></span>
+              </label>
+              <label class="opcion">
+                <input type="radio" name="entrega" value="punto" data-flete="3000">
+                <span><b>Punto de encuentro</b><small>Costo estimado: $3.000. Coordinado en Purísima.</small></span>
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="campo">
+            <label for="pago">Forma de pago</label>
+            <select id="pago">
+              <option>Pago contra entrega</option>
+              <option>Transferencia acordada con el productor</option>
+            </select>
+            <span class="ayuda">AgriMarket no procesa pagos en línea en esta versión del MVP.</span>
+          </div>
+
+          <p id="error-solicitud" class="error oculto" role="alert"></p>
+          <button class="btn nar bloque" type="submit">Confirmar solicitud</button>
+          <a class="btn sec bloque mt-1" href="catalogo.html">Seguir comprando</a>
+        </form>
+      </section>
+
+      <aside class="resumen" aria-labelledby="resumen-titulo">
+        <h2 id="resumen-titulo">Resumen</h2>
+        <div class="linea"><span>Subtotal</span><span id="subtotal">$6.800</span></div>
+        <div class="linea"><span>Flete estimado</span><span id="flete">$5.000</span></div>
+        <div class="linea total"><span>Total estimado</span><span id="total">$11.800</span></div>
+        <p class="pequeno muted mt-2">El total es una estimación. El productor confirma disponibilidad y costo de entrega antes de cerrar la compra.</p>
+        <div class="aviso ok">
+          <span aria-hidden="true">✔</span>
+          <div>Recibirás la confirmación del productor en tu panel y por el teléfono registrado.</div>
+        </div>
+        <ul class="pequeno muted" style="padding-left:18px;margin:0">
+          <li>Revisa la cantidad y la unidad de cada producto.</li>
+          <li>Confirma un teléfono con WhatsApp para coordinar.</li>
+          <li>No se realiza ningún cobro en esta pantalla.</li>
+        </ul>
+      </aside>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

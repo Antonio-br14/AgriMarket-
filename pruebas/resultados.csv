@@ -1,0 +1,4 @@
+estudio,mision,res_participantes,exito_pct,abandono_pct,tiempo_prom_s,misclick_pct,pantalla_exito,observacion
+Maze,T1 - Iniciar sesion,5,100,0,25.8,33.3,02 Login / Desktop,Mayor friccion en el acceso
+Maze,T2 - Buscar y abrir detalle,6,100,0,13.0,14.3,04 Catalogo / 05 Detalle,El exito agrupa catalogo y detalle
+Maze,T3 - Completar y confirmar,5,100,0,43.1,47.1,07 Confirmacion / Desktop,Mayor friccion y tiempo

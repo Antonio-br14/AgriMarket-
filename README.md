@@ -16,7 +16,10 @@ Diseño visual y validación del prototipo de AgriMarket.
 ## Enlaces
 
 - **Figma:** https://www.figma.com/design/OuKVpZzNMY4gfrzjhDTxwI/AgriMarket-%C2%B7-Actividad-2?node-id=0-1&t=SHYAk67AYlZdsncD-1
-- **Maze:** https://app.maze.co/home
+- **Maze T1 (iniciar sesión):** https://app.maze.co/report/New-study-4/ykGh1wnJfOYDm833uOWc-KEgSqdMraWq/intro
+- **Maze T2 (buscar y abrir detalle):** https://app.maze.co/report/New-study-2/FgxTy2l8CzEH-yPNlGfcoVYQTollZhWS/intro
+- **Maze T3 (completar y confirmar):** https://app.maze.co/report/New-study-3/ciOTRa9qbv0eXY5-kMX7-RwHb5oNltQL/intro
+- **Trello:** https://trello.com/b/cvtxjMnA/agrimarket
 
 ## Entregables
 
@@ -25,9 +28,6 @@ Diseño visual y validación del prototipo de AgriMarket.
 - `web/index.html`: prototipo navegable en HTML/CSS.
 - `web/entregables.html`: índice de pantallas y evidencias.
 - `figma/GUIA-FIGMA.md`: guía del archivo de Figma, UI Kit y prueba en Maze.
-- `figma/plugin-wireframes/`: plugin para crear los 8 wireframes.
-- `figma/plugin-uikit/`: plugin para crear el UI Kit.
-- `figma/plugin-prototipo/`: plugin para crear las 9 pantallas y las conexiones.
 - `pruebas/plan-pruebas.md`: plan y resultados de usabilidad.
 - `pruebas/resultados.csv`: datos agregados de Maze.
 - `figuras/`: capturas y figuras del documento.

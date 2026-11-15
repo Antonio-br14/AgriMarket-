@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1200" viewBox="0 0 1440 1200">
+<rect x="0" y="0" width="1440" height="1200" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1440" height="72" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1"/>
+<text font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="120" y="42.6">AgriMarket</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="760" y="40.2">Inicio</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="850" y="40.2">Catalogo</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="960" y="40.2">Mi panel</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="1070" y="40.2">Carrito (0)</tspan></text>
+<rect x="1210" y="18" width="90" height="36" fill="#CCCCCC" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="1255" y="40.2">Ingresar</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="120" y="134">Solicitud de compra</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="120" y="163.2">Revisa los productos y completa los datos de entrega.</tspan></text>
+<rect x="120" y="220" width="760" height="360" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+<rect x="140" y="240" width="720" height="120" fill="#F2F2F2" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="156" y="262" width="56" height="56" fill="#F2F2F2" stroke="#BDBDBD" stroke-width="1" rx="4"/>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="184" y="295.4">x</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="230" y="274.4">Platano harton</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="230" y="304.4">Productor · Vereda</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="540" y="274.8">2 kg</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="680" y="274.8">$5.000</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="680" y="308.4">Quitar</tspan></text>
+<rect x="140" y="380" width="720" height="120" fill="#F2F2F2" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="156" y="402" width="56" height="56" fill="#F2F2F2" stroke="#BDBDBD" stroke-width="1" rx="4"/>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="184" y="435.4">x</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="230" y="414.4">Yuca</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="230" y="444.4">Productor · Vereda</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="540" y="414.8">1 kg</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="680" y="414.8">$1.800</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="680" y="448.4">Quitar</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="120" y="636">Datos de entrega</tspan></text>
+<rect x="120" y="664" width="360" height="56" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="136" y="696.2">Nombre completo</tspan></text>
+<rect x="500" y="664" width="380" height="56" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="516" y="696.2">Telefono</tspan></text>
+<rect x="120" y="734" width="760" height="56" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="136" y="766.2">Direccion o vereda</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="120" y="836.4">Forma de entrega</tspan></text>
+<rect x="120" y="862" width="240" height="70" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="134" y="885.2">Recoger en finca</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="134" y="909.6">Costo por confirmar</tspan></text>
+<rect x="380" y="862" width="240" height="70" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="394" y="885.2">Entrega coordinada</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="394" y="909.6">Costo por confirmar</tspan></text>
+<rect x="640" y="862" width="240" height="70" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="654" y="885.2">Envio local</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="654" y="909.6">Costo por confirmar</tspan></text>
+<rect x="920" y="220" width="400" height="640" fill="#F2F2F2" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+<text font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="944" y="260">Resumen</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="944" y="320">Subtotal: $6.800</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="944" y="354">Flete: por confirmar</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="944" y="388">Pago: contra entrega</tspan></text>
+<rect x="944" y="424" width="352" height="1" fill="#BDBDBD"/>
+<text font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="944" y="464">Total: $6.800</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="944" y="509.6">El productor confirmara disponibilidad, flete y punto de entrega.</tspan></text>
+<rect x="944" y="760" width="352" height="48" fill="#CCCCCC" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="1120" y="788.2">Confirmar solicitud</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="1120" y="830.4">Seguir comprando</tspan></text>
+</svg>

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgriMarket · Plátano hartón</title>
+  <meta name="description" content="Detalle del producto, precio, disponibilidad y perfil del productor.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="catalogo">
+  <div id="site-header"></div>
+
+  <main class="contenedor">
+    <p class="pequeno"><a class="link" href="catalogo.html">← Volver al catálogo</a></p>
+
+    <div class="detalle" id="detalle-producto" data-nombre="Plátano hartón" data-precio="2500" data-unidad="kg" data-emoji="🍌">
+      <div class="foto" aria-label="Imagen ilustrativa de plátano hartón" role="img">🍌</div>
+
+      <div>
+        <span class="etiqueta">Frutas</span>
+        <h1 class="mt-1">Plátano hartón</h1>
+        <p class="muted mb-0">Productor: <strong>José Ramón</strong> · Vereda El Naranjal</p>
+        <div class="precio">$2.500 / kg</div>
+        <p class="desc">Plátano fresco de cosecha reciente. Disponible para entrega esta semana en Purísima y Montería.</p>
+
+        <div class="productor">
+          <div class="avatar" aria-hidden="true">JR</div>
+          <div class="datos">
+            <b>
+              José Ramón
+              <span class="etiqueta" style="font-size:11px">✔ Verificado</span>
+            </b>
+            <small>Finca El Naranjal · Vereda El Naranjal, Purísima</small>
+            <div class="rating" aria-label="Calificación 4,8 de 5">★★★★★ <span class="muted pequeno">4,8 (12 reseñas)</span></div>
+          </div>
+        </div>
+
+        <div class="entre" style="margin-bottom:12px">
+          <span class="etiqueta">Disponible: 80 kg</span>
+          <span class="pequeno muted">Entrega coordinada · Sin pago en línea</span>
+        </div>
+
+        <div class="campo">
+          <label for="cantidad">Cantidad (kg)</label>
+          <div class="cantidad">
+            <button type="button" id="menos" aria-label="Disminuir cantidad">−</button>
+            <input id="cantidad" type="number" min="1" value="2" inputmode="numeric">
+            <button type="button" id="mas" aria-label="Aumentar cantidad">+</button>
+          </div>
+        </div>
+
+        <p class="pequeno muted">Subtotal estimado: <strong id="total-linea" style="color:var(--verde-osc);font-size:16px">$5.000</strong></p>
+
+        <button class="btn nar bloque" type="button" id="agregar-solicitud">Agregar a la solicitud</button>
+        <a class="btn sec bloque mt-1" href="catalogo.html">Seguir comprando</a>
+
+        <div class="aviso info mt-3">
+          <span aria-hidden="true">ℹ️</span>
+          <div>Al enviar la solicitud, el productor recibe tus datos y confirma la disponibilidad. AgriMarket no procesa pagos en esta versión.</div>
+        </div>
+      </div>
+    </div>
+
+    <section class="relacionados">
+      <h2>También te puede interesar</h2>
+      <div class="grid">
+        <a class="card card-link" href="detalle.html">
+          <div class="foto" aria-hidden="true">🥔</div>
+          <div class="cuerpo">
+            <div class="nombre">Yuca</div>
+            <div class="precio">$1.800 / kg</div>
+            <div class="prod">María López · La Esperanza</div>
+            <span class="btn sm mt-1">Ver producto</span>
+          </div>
+        </a>
+        <a class="card card-link" href="detalle.html">
+          <div class="foto" aria-hidden="true">🌽</div>
+          <div class="cuerpo">
+            <div class="nombre">Maíz</div>
+            <div class="precio">$2.200 / kg</div>
+            <div class="prod">Pedro Ruiz · El Cedro</div>
+            <span class="btn sm mt-1">Ver producto</span>
+          </div>
+        </a>
+        <a class="card card-link" href="detalle.html">
+          <div class="foto" aria-hidden="true">🥬</div>
+          <div class="cuerpo">
+            <div class="nombre">Lechuga</div>
+            <div class="precio">$1.500 / unidad</div>
+            <div class="prod">Ana Gómez · El Naranjal</div>
+            <span class="btn sm mt-1">Ver producto</span>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

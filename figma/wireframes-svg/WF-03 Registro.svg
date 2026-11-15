@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1100" viewBox="0 0 1440 1100">
+<rect x="0" y="0" width="1440" height="1100" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1440" height="72" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1"/>
+<text font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="120" y="42.6">AgriMarket</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="760" y="40.2">Inicio</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="850" y="40.2">Catalogo</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="960" y="40.2">Mi panel</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="1070" y="40.2">Carrito (0)</tspan></text>
+<rect x="1210" y="18" width="90" height="36" fill="#CCCCCC" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="1255" y="40.2">Ingresar</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="720" y="145.6">Crear cuenta</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="720" y="183.2">Elige tu rol y completa tus datos.</tspan></text>
+<rect x="400" y="230" width="310" height="100" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="420" y="262.4">Consumidor</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="420" y="288.4">Compra productos frescos</tspan></text>
+<rect x="676" y="246" width="16" height="16" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+<rect x="730" y="230" width="310" height="100" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="750" y="262.4">Productor</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="750" y="288.4">Vende tus productos</tspan></text>
+<rect x="1006" y="246" width="16" height="16" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+<rect x="400" y="370" width="640" height="56" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="416" y="402.2">Nombre completo</tspan></text>
+<rect x="400" y="440" width="640" height="56" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="416" y="472.2">Correo electronico</tspan></text>
+<rect x="400" y="510" width="640" height="56" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="416" y="542.2">Telefono</tspan></text>
+<rect x="400" y="580" width="640" height="56" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="416" y="612.2">Contrasena</tspan></text>
+<rect x="400" y="650" width="640" height="56" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="416" y="682.2">Confirmar contrasena</tspan></text>
+<rect x="400" y="736" width="20" height="20" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="3"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="432" y="750.2">Acepto los terminos y la politica de privacidad</tspan></text>
+<rect x="400" y="786" width="640" height="48" fill="#CCCCCC" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="720" y="814.2">Registrarme</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="720" y="866.4">Ya tienes cuenta? Ingresar</tspan></text>
+</svg>

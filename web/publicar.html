@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgriMarket · Publicar producto</title>
+  <meta name="description" content="Formulario para publicar un producto en AgriMarket.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="panel">
+  <div id="site-header"></div>
+
+  <main class="contenedor">
+    <p class="pequeno"><a class="link" href="panel.html">← Volver al panel</a></p>
+
+    <div class="publicar-grid">
+      <section>
+        <h1>Publicar producto</h1>
+        <p class="sub">Registra un producto para ofrecerlo en el catálogo. Los campos marcados con <span class="obligatorio">*</span> son obligatorios.</p>
+
+        <form id="form-publicar" class="caja ancha" novalidate>
+          <div class="campo">
+            <label for="prod-nombre">Nombre del producto <span class="obligatorio" aria-hidden="true">*</span></label>
+            <input id="prod-nombre" type="text" placeholder="Ej. Plátano hartón" required>
+            <span class="ayuda">Usa un nombre que los compradores reconozcan.</span>
+          </div>
+
+          <div class="fila">
+            <div class="campo">
+              <label for="prod-categoria">Categoría <span class="obligatorio" aria-hidden="true">*</span></label>
+              <select id="prod-categoria">
+                <option>Frutas</option>
+                <option>Hortalizas</option>
+                <option>Tubérculos</option>
+                <option>Cereales</option>
+                <option>Otros</option>
+              </select>
+            </div>
+            <div class="campo">
+              <label for="prod-unidad">Unidad de venta <span class="obligatorio" aria-hidden="true">*</span></label>
+              <select id="prod-unidad">
+                <option>kg</option>
+                <option>unidad</option>
+                <option>bulto</option>
+                <option>docena</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="fila">
+            <div class="campo">
+              <label for="prod-precio">Precio <span class="obligatorio" aria-hidden="true">*</span></label>
+              <input id="prod-precio" type="number" min="1" value="2500" required>
+              <span class="ayuda">Precio en pesos colombianos (COP).</span>
+            </div>
+            <div class="campo">
+              <label for="prod-cantidad">Cantidad disponible <span class="obligatorio" aria-hidden="true">*</span></label>
+              <input id="prod-cantidad" type="number" min="1" value="50" required>
+              <span class="ayuda">En la unidad seleccionada.</span>
+            </div>
+          </div>
+
+          <div class="campo">
+            <label for="prod-desc">Descripción</label>
+            <textarea id="prod-desc" rows="3" placeholder="Detalle del producto, cosecha, vereda, forma de entrega..."></textarea>
+            <span class="ayuda">Máximo 280 caracteres. Ayuda al comprador a decidir.</span>
+          </div>
+
+          <div class="campo">
+            <span class="etiqueta-campo">Imagen del producto</span>
+            <div class="subida">
+              <span class="emoji" aria-hidden="true">🍌</span>
+              <b>Arrastra una foto o selecciona un archivo</b>
+              <p class="pequeno mb-0">JPG o PNG. En el prototipo se usa un emoji como imagen de demostración.</p>
+              <input class="oculto" id="prod-imagen" type="file" accept="image/*">
+            </div>
+          </div>
+
+          <div class="fila">
+            <div class="campo">
+              <label for="prod-emoji">Imagen de demostración (emoji)</label>
+              <input id="prod-emoji" type="text" maxlength="4" value="🍌">
+            </div>
+            <div class="campo">
+              <label for="prod-estado">Estado de la publicación</label>
+              <select id="prod-estado">
+                <option>Disponible</option>
+                <option>Pausada</option>
+                <option>Agotada</option>
+              </select>
+            </div>
+          </div>
+
+          <label class="check">
+            <input type="checkbox" checked>
+            <span>Confirmo que la información del producto y el precio son correctos.</span>
+          </label>
+
+          <p id="error-publicar" class="error oculto" role="alert"></p>
+
+          <div class="fila">
+            <button class="btn nar" type="submit">Publicar producto</button>
+            <a class="btn sec" href="panel.html">Cancelar</a>
+          </div>
+        </form>
+      </section>
+
+      <aside>
+        <div class="consejos">
+          <h3>Consejos para publicar</h3>
+          <ul>
+            <li>Usa una foto clara y un nombre corto.</li>
+            <li>Indica la unidad y la cantidad real disponible.</li>
+            <li>Revisa el precio de referencia antes de publicar.</li>
+            <li>Actualiza el estado cuando se agote el producto.</li>
+          </ul>
+        </div>
+
+        <div class="card mt-2">
+          <div class="foto" aria-hidden="true">🍌</div>
+          <div class="cuerpo">
+            <div class="nombre">Vista previa</div>
+            <div class="precio">$2.500 / kg</div>
+            <div class="prod">José Ramón · El Naranjal</div>
+            <span class="etiqueta">Disponible · 50 kg</span>
+          </div>
+        </div>
+
+        <div class="aviso info mt-2">
+          <span aria-hidden="true">ℹ️</span>
+          <div>Al publicar, el producto aparece en el catálogo y queda asociado a tu perfil verificado.</div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

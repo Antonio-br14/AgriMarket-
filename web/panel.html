@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgriMarket · Mi panel</title>
+  <meta name="description" content="Panel del productor: perfil, productos, solicitudes recibidas y reportes.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="panel">
+  <div id="site-header"></div>
+
+  <main class="contenedor">
+    <div class="entre">
+      <div>
+        <h1>Mi panel</h1>
+        <p class="sub mb-0">Gestiona tu perfil, tus productos y las solicitudes recibidas.</p>
+      </div>
+      <a class="btn nar" href="publicar.html">+ Publicar producto</a>
+    </div>
+
+    <nav class="tabs" aria-label="Secciones del panel">
+      <button type="button" class="activo" data-tab="resumen">Resumen</button>
+      <button type="button" data-tab="productos">Mis productos</button>
+      <button type="button" data-tab="solicitudes">Solicitudes</button>
+      <button type="button" data-tab="reportes">Reportes</button>
+    </nav>
+
+    <section data-panel="resumen">
+      <div class="panel-grid">
+        <div class="stat">
+          <div class="num">2</div>
+          <div class="lbl">Productos publicados</div>
+        </div>
+        <div class="stat">
+          <div class="num">1</div>
+          <div class="lbl">Solicitudes recibidas</div>
+        </div>
+        <div class="stat">
+          <div class="num">$6.500</div>
+          <div class="lbl">Ventas estimadas</div>
+        </div>
+      </div>
+
+      <h2>Mi perfil de productor</h2>
+      <form id="form-perfil" class="caja ancha" novalidate>
+        <div class="fila">
+          <div class="campo">
+            <label for="perfil-finca">Finca</label>
+            <input id="perfil-finca" type="text" value="Finca El Naranjal">
+          </div>
+          <div class="campo">
+            <label for="perfil-vereda">Vereda</label>
+            <input id="perfil-vereda" type="text" value="El Naranjal">
+          </div>
+        </div>
+        <div class="fila">
+          <div class="campo">
+            <label for="perfil-tel">Teléfono de contacto</label>
+            <input id="perfil-tel" type="tel" placeholder="Número de contacto" value="300 123 4567">
+          </div>
+          <div class="campo">
+            <label for="perfil-estado">Estado del perfil</label>
+            <input id="perfil-estado" type="text" value="Verificado" disabled>
+          </div>
+        </div>
+        <div class="entre" style="margin-top:4px">
+          <span class="etiqueta">✔ Perfil visible en el catálogo</span>
+          <button class="btn" type="submit">Guardar perfil</button>
+        </div>
+      </form>
+
+      <div class="entre mt-3">
+        <h2 class="mb-0">Actividad reciente</h2>
+        <button class="btn sec sm" type="button" data-ir-tab="productos">Ver todos los productos</button>
+      </div>
+      <div class="grid mt-2">
+        <div class="card">
+          <div class="foto" aria-hidden="true">🍌</div>
+          <div class="cuerpo">
+            <div class="nombre">Plátano hartón</div>
+            <div class="precio">$2.500 / kg</div>
+            <div class="prod">80 kg disponibles</div>
+            <span class="etiqueta">Publicado</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="foto" aria-hidden="true">🍫</div>
+          <div class="cuerpo">
+            <div class="nombre">Cacao</div>
+            <div class="precio">$8.000 / kg</div>
+            <div class="prod">30 kg disponibles</div>
+            <span class="etiqueta">Publicado</span>
+          </div>
+        </div>
+        <div class="card" style="grid-column:span 1">
+          <div class="cuerpo">
+            <div class="entre">
+              <span class="etiqueta pend">Pendiente</span>
+              <small class="muted">7/11/2026</small>
+            </div>
+            <b class="mt-1">Solicitud #0001</b>
+            <div class="prod">María Fernanda · 3 unidades</div>
+            <div class="precio">$6.500</div>
+            <div class="fila mt-1">
+              <button class="btn sm" type="button" data-responder="Aceptada">Aceptar</button>
+              <button class="btn sec sm" type="button" data-responder="Rechazada">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-panel="productos" class="oculto">
+      <div class="entre">
+        <h2 class="mt-0">Mis productos</h2>
+        <a class="btn" href="publicar.html">+ Publicar producto</a>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <div class="foto" aria-hidden="true">🍌</div>
+          <div class="cuerpo">
+            <div class="nombre">Plátano hartón</div>
+            <div class="precio">$2.500 / kg</div>
+            <div class="prod">José Ramón · El Naranjal</div>
+            <span class="etiqueta">Disponible · 80 kg</span>
+            <div class="fila mt-1">
+              <a class="btn sec sm" href="publicar.html">Editar</a>
+              <button class="btn sec sm" type="button" data-eliminar>Eliminar</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="foto" aria-hidden="true">🍫</div>
+          <div class="cuerpo">
+            <div class="nombre">Cacao</div>
+            <div class="precio">$8.000 / kg</div>
+            <div class="prod">José Ramón · El Naranjal</div>
+            <span class="etiqueta">Disponible · 30 kg</span>
+            <div class="fila mt-1">
+              <a class="btn sec sm" href="publicar.html">Editar</a>
+              <button class="btn sec sm" type="button" data-eliminar>Eliminar</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="border-style:dashed;align-items:center;justify-content:center;padding:24px;text-align:center">
+          <div class="cuerpo" style="align-items:center">
+            <div style="font-size:38px" aria-hidden="true">＋</div>
+            <b>Publicar un nuevo producto</b>
+            <p class="pequeno muted">Nombre, categoría, precio, unidad y cantidad.</p>
+            <a class="btn nar" href="publicar.html">Publicar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-panel="solicitudes" class="oculto">
+      <h2 class="mt-0">Solicitudes recibidas</h2>
+      <p class="sub">Acepta o rechaza las solicitudes. El consumidor ve el cambio de estado.</p>
+
+      <div class="lista-item solicitud-row">
+        <div class="mini" aria-hidden="true">📦</div>
+        <div class="info">
+          <b>Solicitud #0001</b>
+          <small>María Fernanda · 7/11/2026 · Domicilio</small>
+        </div>
+        <div class="precio-linea">$6.500</div>
+        <span class="etiqueta pend estado-solicitud">Pendiente</span>
+        <div class="fila acciones-solicitud" style="max-width:220px">
+          <button class="btn sm" type="button" data-responder="Aceptada">Aceptar</button>
+          <button class="btn sec sm" type="button" data-responder="Rechazada">Rechazar</button>
+        </div>
+      </div>
+
+      <div class="lista-item solicitud-row">
+        <div class="mini" aria-hidden="true">📦</div>
+        <div class="info">
+          <b>Solicitud #0002</b>
+          <small>Carlos Méndez · 5/11/2026 · Recoger en finca</small>
+        </div>
+        <div class="precio-linea">$12.000</div>
+        <span class="etiqueta estado-solicitud">Aceptada</span>
+      </div>
+
+      <div class="lista-item solicitud-row">
+        <div class="mini" aria-hidden="true">📦</div>
+        <div class="info">
+          <b>Solicitud #0003</b>
+          <small>Tienda La Esperanza · 3/11/2026 · Punto de encuentro</small>
+        </div>
+        <div class="precio-linea">$24.000</div>
+        <span class="etiqueta rech estado-solicitud">Rechazada</span>
+      </div>
+
+      <div class="aviso info mt-2">
+        <span aria-hidden="true">ℹ️</span>
+        <div>El historial completo y las notificaciones por WhatsApp/SMS hacen parte de las funcionalidades <em>Should</em> y <em>Could</em> del MVP y se abordan en la siguiente fase.</div>
+      </div>
+    </section>
+
+    <section data-panel="reportes" class="oculto">
+      <h2 class="mt-0">Reportes del productor</h2>
+      <p class="sub">Indicadores sencillos para decidir qué publicar y a qué precio.</p>
+
+      <div class="grid-2">
+        <div class="card" style="padding:20px">
+          <h3>Ventas estimadas por semana</h3>
+          <div class="barras" role="img" aria-label="Ventas estimadas: semana 1 $6.500, semana 2 $12.000, semana 3 $9.500, semana 4 $18.000">
+            <div class="barra-dato"><em>$6.500</em><i style="height:36%"></i><span>Sem 1</span></div>
+            <div class="barra-dato"><em>$12.000</em><i style="height:66%"></i><span>Sem 2</span></div>
+            <div class="barra-dato"><em>$9.500</em><i style="height:52%"></i><span>Sem 3</span></div>
+            <div class="barra-dato"><em>$18.000</em><i style="height:100%"></i><span>Sem 4</span></div>
+          </div>
+        </div>
+
+        <div class="card" style="padding:20px">
+          <h3>Solicitudes por estado</h3>
+          <div class="barras" role="img" aria-label="Solicitudes: 6 pendientes, 4 aceptadas, 2 rechazadas">
+            <div class="barra-dato"><em>6</em><i style="height:100%"></i><span>Pendientes</span></div>
+            <div class="barra-dato"><em>4</em><i style="height:66%"></i><span>Aceptadas</span></div>
+            <div class="barra-dato"><em>2</em><i style="height:33%"></i><span>Rechazadas</span></div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="mt-3">Precios de referencia</h3>
+      <p class="pequeno muted">RF-13 · Panel de precios de referencia del mercado regional (funcionalidad <em>Should</em> del MVP).</p>
+      <table class="tabla">
+        <thead>
+          <tr>
+            <th scope="col">Producto</th>
+            <th scope="col">Precio de referencia</th>
+            <th scope="col">Tu precio publicado</th>
+            <th scope="col">Variación</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Plátano hartón</td>
+            <td class="num">$2.400 / kg</td>
+            <td class="num">$2.500 / kg</td>
+            <td><span class="etiqueta">+4,2 %</span></td>
+          </tr>
+          <tr>
+            <td>Yuca</td>
+            <td class="num">$1.900 / kg</td>
+            <td class="num">$1.800 / kg</td>
+            <td><span class="etiqueta pend">−5,3 %</span></td>
+          </tr>
+          <tr>
+            <td>Maíz</td>
+            <td class="num">$2.200 / kg</td>
+            <td class="num">$2.200 / kg</td>
+            <td><span class="etiqueta neutra">0 %</span></td>
+          </tr>
+          <tr>
+            <td>Cacao</td>
+            <td class="num">$8.200 / kg</td>
+            <td class="num">$8.000 / kg</td>
+            <td><span class="etiqueta pend">−2,4 %</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="aviso mt-3">
+        <span aria-hidden="true">📈</span>
+        <div><strong>Lectura del reporte:</strong> el productor puede comparar su precio con la referencia y ajustar la publicación. Los datos son de demostración para el prototipo.</div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

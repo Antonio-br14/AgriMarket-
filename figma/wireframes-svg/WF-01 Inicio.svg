@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2000" viewBox="0 0 1440 2000">
+<rect x="0" y="0" width="1440" height="2000" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1440" height="72" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1"/>
+<text font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="120" y="42.6">AgriMarket</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="760" y="40.2">Inicio</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="850" y="40.2">Catalogo</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="960" y="40.2">Mi panel</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="1070" y="40.2">Carrito (0)</tspan></text>
+<rect x="1210" y="18" width="90" height="36" fill="#CCCCCC" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="1255" y="40.2">Ingresar</tspan></text>
+<rect x="120" y="112" width="1200" height="360" fill="#E6E6E6" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+<text font-family="Inter, Arial, sans-serif" font-size="48" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="160" y="188.4">Productos frescos,</tspan><tspan x="160" y="253.4">directo del productor</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="160" y="306.4">Conectamos a los pequenos productores de Purisima, Cordoba, con compradores locales. Compra fresco y paga un precio justo.</tspan></text>
+<rect x="160" y="372" width="170" height="44" fill="#CCCCCC" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="245" y="398.2">Ver catalogo</tspan></text>
+<rect x="350" y="372" width="170" height="44" fill="#CCCCCC" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="435" y="398.2">Quiero vender</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="120" y="539.2">Beneficios</tspan></text>
+<rect x="120" y="564" width="360" height="160" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="140" y="584" width="40" height="40" fill="#F2F2F2" stroke="#BDBDBD" stroke-width="1" rx="4"/>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="160" y="609.4">x</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="196" y="598.8">Directo del productor</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="196" y="630.4">Sin intermediarios que fijen el precio. Conoce quien cultiva lo que compras.</tspan></text>
+<rect x="540" y="564" width="360" height="160" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="560" y="584" width="40" height="40" fill="#F2F2F2" stroke="#BDBDBD" stroke-width="1" rx="4"/>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="580" y="609.4">x</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="616" y="598.8">Precio justo y claro</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="616" y="630.4">Precio, unidad y disponibilidad visibles antes de enviar la solicitud.</tspan></text>
+<rect x="960" y="564" width="360" height="160" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="980" y="584" width="40" height="40" fill="#F2F2F2" stroke="#BDBDBD" stroke-width="1" rx="4"/>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="1000" y="609.4">x</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="1036" y="598.8">Entrega coordinada</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="1036" y="630.4">Acuerda con el productor si recoges en la finca o si coordinan la entrega.</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="120" y="789.2">Categorias</tspan></text>
+<rect x="120" y="814" width="280" height="140" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="140" y="834" width="40" height="40" fill="#F2F2F2" stroke="#BDBDBD" stroke-width="1" rx="4"/>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="160" y="859.4">x</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="196" y="848.8">Frutas</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="196" y="878.4">Ver productos</tspan></text>
+<rect x="426" y="814" width="280" height="140" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="446" y="834" width="40" height="40" fill="#F2F2F2" stroke="#BDBDBD" stroke-width="1" rx="4"/>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="466" y="859.4">x</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="502" y="848.8">Hortalizas</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="502" y="878.4">Ver productos</tspan></text>
+<rect x="732" y="814" width="280" height="140" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="752" y="834" width="40" height="40" fill="#F2F2F2" stroke="#BDBDBD" stroke-width="1" rx="4"/>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="772" y="859.4">x</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="808" y="848.8">Tuberculos</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="808" y="878.4">Ver productos</tspan></text>
+<rect x="1038" y="814" width="280" height="140" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="1058" y="834" width="40" height="40" fill="#F2F2F2" stroke="#BDBDBD" stroke-width="1" rx="4"/>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="1078" y="859.4">x</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="1114" y="848.8">Cereales</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="1114" y="878.4">Ver productos</tspan></text>
+<rect x="120" y="974" width="280" height="140" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="140" y="994" width="40" height="40" fill="#F2F2F2" stroke="#BDBDBD" stroke-width="1" rx="4"/>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="160" y="1019.4">x</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="196" y="1008.8">Otros</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="196" y="1038.4">Ver productos</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="120" y="1159.2">Productos destacados</tspan></text>
+<rect x="120" y="1184" width="280" height="320" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="120" y="1184" width="280" height="160" fill="#E6E6E6" stroke="#BDBDBD" stroke-width="1"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="260" y="1268.2">IMG</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="136" y="1368.8">Nombre del producto</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="136" y="1398">$2.500 / kg</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="136" y="1423.6">Productor · Vereda</tspan></text>
+<rect x="136" y="1452" width="248" height="36" fill="#CCCCCC" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="260" y="1474.2">Ver producto</tspan></text>
+<rect x="426" y="1184" width="280" height="320" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="426" y="1184" width="280" height="160" fill="#E6E6E6" stroke="#BDBDBD" stroke-width="1"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="566" y="1268.2">IMG</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="442" y="1368.8">Nombre del producto</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="442" y="1398">$2.500 / kg</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="442" y="1423.6">Productor · Vereda</tspan></text>
+<rect x="442" y="1452" width="248" height="36" fill="#CCCCCC" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="566" y="1474.2">Ver producto</tspan></text>
+<rect x="732" y="1184" width="280" height="320" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="732" y="1184" width="280" height="160" fill="#E6E6E6" stroke="#BDBDBD" stroke-width="1"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="872" y="1268.2">IMG</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="748" y="1368.8">Nombre del producto</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="748" y="1398">$2.500 / kg</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="748" y="1423.6">Productor · Vereda</tspan></text>
+<rect x="748" y="1452" width="248" height="36" fill="#CCCCCC" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="872" y="1474.2">Ver producto</tspan></text>
+<rect x="1038" y="1184" width="280" height="320" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="1038" y="1184" width="280" height="160" fill="#E6E6E6" stroke="#BDBDBD" stroke-width="1"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#666666" xml:space="preserve"><tspan x="1178" y="1268.2">IMG</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="1054" y="1368.8">Nombre del producto</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="1054" y="1398">$2.500 / kg</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="1054" y="1423.6">Productor · Vereda</tspan></text>
+<rect x="1054" y="1452" width="248" height="36" fill="#CCCCCC" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="1178" y="1474.2">Ver producto</tspan></text>
+<rect x="120" y="1544" width="1200" height="120" fill="#F2F2F2" stroke="#BDBDBD" stroke-width="1" rx="8"/>
+<text font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="150" y="1577.6">Eres productor y quieres vender directo?</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="150" y="1609.2">Crea tu perfil, publica tus productos y recibe solicitudes de compra.</tspan></text>
+<rect x="1010" y="1576" width="280" height="48" fill="#CCCCCC" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<text font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="1150" y="1604.2">Crear cuenta de productor</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="120" y="1719.2">Como funciona</tspan></text>
+<rect x="120" y="1744" width="380" height="100" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="136" y="1758" width="90" height="32" fill="#E6E6E6" stroke="#BDBDBD" stroke-width="1" rx="999"/>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="181" y="1777.9">Paso 1</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="136" y="1810">Explora el catalogo</tspan></text>
+<rect x="530" y="1744" width="380" height="100" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="546" y="1758" width="90" height="32" fill="#E6E6E6" stroke="#BDBDBD" stroke-width="1" rx="999"/>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="591" y="1777.9">Paso 2</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="546" y="1810">Agrega a tu solicitud</tspan></text>
+<rect x="940" y="1744" width="380" height="100" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1" rx="6"/>
+<rect x="956" y="1758" width="90" height="32" fill="#E6E6E6" stroke="#BDBDBD" stroke-width="1" rx="999"/>
+<text font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#333333" xml:space="preserve"><tspan x="1001" y="1777.9">Paso 3</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="956" y="1810">Confirma con el productor</tspan></text>
+<rect x="0" y="1880" width="1440" height="120" fill="#E6E6E6" stroke="#BDBDBD" stroke-width="1"/>
+<text font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start" fill="#333333" xml:space="preserve"><tspan x="120" y="1920.4">AgriMarket</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="120" y="1951.6">Productos frescos, directo del productor.</tspan></text>
+<text font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#666666" xml:space="preserve"><tspan x="900" y="1921.6">Inicio   Catalogo   Mi panel</tspan><tspan x="900" y="1937.6">Contacto   Terminos   Privacidad</tspan></text>
+</svg>

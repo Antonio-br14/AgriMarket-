@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgriMarket · Tablero Kanban de la fase de diseño</title>
+  <meta name="description" content="Tablero Kanban con las tareas de la fase de diseño visual y pruebas de usabilidad de AgriMarket.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="trello">
+  <div id="site-header"></div>
+
+  <main class="contenedor">
+    <h1>Tablero Kanban de la fase de diseño</h1>
+    <p class="sub">Flujo de trabajo de la Actividad 2 en Trello: backlog, tareas en curso, revisión y hecho. El tablero conserva la lógica de Kanban de la Actividad 1 (flujo continuo, límite de WIP y tarjetas priorizadas).</p>
+
+    <div class="aviso info">
+      <span aria-hidden="true">🔗</span>
+      <div><strong>Tablero en Trello:</strong> <a class="link" href="https://trello.com/invite/b/6ac1836f46c8e0c853735f2b/ATTI70d0b26d82729da18d580c0510770ac35B9F35BB/agrimarket" target="_blank" rel="noopener">AgriMarket · Análisis y diseño</a>. Las tarjetas de esta vista son la representación de la fase para el documento; el tablero real conserva el histórico.</div>
+    </div>
+
+    <div class="kanban">
+      <section class="columna">
+        <h3>Backlog <span class="wip">sin límite</span></h3>
+        <div class="tarjeta">
+          <b>Documento de la Actividad 2</b>
+          <div class="meta"><span class="tag">Documentación</span><span>Alta</span></div>
+        </div>
+        <div class="tarjeta">
+          <b>Guía de Figma</b>
+          <div class="meta"><span class="tag">Diseño</span><span>Media</span></div>
+        </div>
+        <div class="tarjeta">
+          <b>Versión móvil y tablet</b>
+          <div class="meta"><span class="tag">Diseño</span><span>Alta</span></div>
+        </div>
+        <div class="tarjeta">
+          <b>Validación de accesibilidad</b>
+          <div class="meta"><span class="tag nar">Calidad</span><span>Media</span></div>
+        </div>
+      </section>
+
+      <section class="columna">
+        <h3>Por hacer <span class="wip">WIP 3</span></h3>
+        <div class="tarjeta">
+          <b>Prototipo interactivo en Figma</b>
+          <div class="meta"><span class="tag">Prototipo</span><span>Alta</span></div>
+          <div class="meta"><span>US-01 a US-10</span><span>15 nov</span></div>
+        </div>
+        <div class="tarjeta">
+          <b>Pruebas de usabilidad (5 usuarios)</b>
+          <div class="meta"><span class="tag nar">Test</span><span>Alta</span></div>
+          <div class="meta"><span>Tareas 1-3</span><span>15 nov</span></div>
+        </div>
+        <div class="tarjeta">
+          <b>Ajustes derivados del test</b>
+          <div class="meta"><span class="tag nar">Iteración</span><span>Alta</span></div>
+        </div>
+      </section>
+
+      <section class="columna">
+        <h3>En proceso <span class="wip">WIP 2</span></h3>
+        <div class="tarjeta">
+          <b>UI Kit: fundamentos y componentes</b>
+          <div class="meta"><span class="tag">Diseño</span><span>Ana / equipo</span></div>
+          <div class="meta"><span>Colores, tipografía, botones</span><span>En curso</span></div>
+        </div>
+        <div class="tarjeta">
+          <b>Wireframes de 8 pantallas</b>
+          <div class="meta"><span class="tag">Diseño</span><span>Equipo</span></div>
+          <div class="meta"><span>Baja fidelidad</span><span>En curso</span></div>
+        </div>
+      </section>
+
+      <section class="columna">
+        <h3>En revisión <span class="wip">WIP 2</span></h3>
+        <div class="tarjeta">
+          <b>User Flow del consumidor y productor</b>
+          <div class="meta"><span class="tag">UX</span><span>Revisión</span></div>
+        </div>
+        <div class="tarjeta">
+          <b>Customer Journey Map</b>
+          <div class="meta"><span class="tag">UX</span><span>Revisión</span></div>
+        </div>
+        <div class="tarjeta">
+          <b>Mapa de navegación</b>
+          <div class="meta"><span class="tag">UX</span><span>Revisión</span></div>
+        </div>
+      </section>
+
+      <section class="columna">
+        <h3>Hecho <span class="wip">✓</span></h3>
+        <div class="tarjeta">
+          <b>Análisis de la Actividad 1</b>
+          <div class="meta"><span class="tag">Base</span><span>Hecho</span></div>
+        </div>
+        <div class="tarjeta">
+          <b>Prototipo funcional React (Actividad 4)</b>
+          <div class="meta"><span class="tag">Base</span><span>Hecho</span></div>
+        </div>
+        <div class="tarjeta">
+          <b>Maquetación HTML/CSS navegable</b>
+          <div class="meta"><span class="tag">Implementación</span><span>Hecho</span></div>
+        </div>
+        <div class="tarjeta">
+          <b>Capturas y figuras del documento</b>
+          <div class="meta"><span class="tag">Documentación</span><span>Hecho</span></div>
+        </div>
+      </section>
+    </div>
+
+    <h2>Definición de terminado (DoD) de la fase</h2>
+    <table class="tabla">
+      <thead>
+        <tr><th>N.º</th><th>Criterio</th><th>Evidencia</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>UI Kit con colores, tipografía, espaciado y componentes.</td><td>Archivo de Figma y esta guía de estilos.</td></tr>
+        <tr><td>2</td><td>Wireframes de las 8 pantallas principales.</td><td>Tablero de wireframes y capturas.</td></tr>
+        <tr><td>3</td><td>Prototipo navegable con los flujos del MVP.</td><td>Enlace de Figma y maquetación HTML/CSS.</td></tr>
+        <tr><td>4</td><td>User Flow y Customer Journey Map actualizados al prototipo.</td><td>Diagramas y mapa de emociones.</td></tr>
+        <tr><td>5</td><td>Pruebas con al menos 5 usuarios y 3 tareas.</td><td>Tabla de resultados y hallazgos.</td></tr>
+        <tr><td>6</td><td>Ajustes implementados y documentados.</td><td>Comparativa antes/después y conclusión.</td></tr>
+        <tr><td>7</td><td>Documento PDF con trazabilidad a la Actividad 1.</td><td>Documento final y anexos.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="aviso mt-2">
+      <span aria-hidden="true">📌</span>
+      <div><strong>Regla de WIP:</strong> máximo dos tarjetas en proceso por persona y dos en revisión. Si una tarjeta se bloquea, se marca y se resuelve antes de tomar una nueva, para evitar acumulación de trabajo sin terminar.</div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

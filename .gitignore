@@ -1,0 +1,13 @@
+# Archivos temporales de Office
+~$*
+*.tmp
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencias y compilados
+node_modules/
+dist/
+coverage/

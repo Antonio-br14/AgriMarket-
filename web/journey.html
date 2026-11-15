@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgriMarket · Customer Journey Map del prototipo</title>
+  <meta name="description" content="Customer Journey Map del consumidor aplicado al prototipo visual de AgriMarket.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="journey">
+  <div id="site-header"></div>
+
+  <main class="contenedor">
+    <h1>Customer Journey Map del prototipo</h1>
+    <p class="sub">Experiencia del consumidor a lo largo de las pantallas del prototipo: qué hace, qué piensa, qué siente, dónde se frustra y qué decisión de diseño responde a cada momento.</p>
+
+    <div class="aviso info">
+      <span aria-hidden="true">ℹ️</span>
+      <div><strong>Alcance:</strong> el mapa se construyó con los hallazgos de las entrevistas de la Actividad 1 (mapa de empatía, POV y User Persona) y se contrastó con la navegación del prototipo. Las etapas críticas son el registro y la confirmación de la solicitud.</div>
+    </div>
+
+    <h2>Mapa de emociones</h2>
+    <div class="diagrama">
+      <svg viewBox="0 0 1100 230" role="img" aria-labelledby="emociones-titulo emociones-desc">
+        <title id="emociones-titulo">Curva de emociones del consumidor</title>
+        <desc id="emociones-desc">La confianza sube al ver el detalle del producto, baja en el registro y en la confirmación por la incertidumbre de la entrega.</desc>
+        <defs>
+          <linearGradient id="grad-emocion" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#2E7D32" stop-opacity="0.16"/>
+            <stop offset="100%" stop-color="#2E7D32" stop-opacity="0"/>
+          </linearGradient>
+          <style>
+            .eje { stroke:#DDE5DD; stroke-width:1; }
+            .curva { stroke:#2E7D32; stroke-width:3; fill:none; }
+            .punto { fill:#2E7D32; stroke:#fff; stroke-width:2; }
+            .etapa { font: 700 12px "Segoe UI", Arial, sans-serif; fill:#1D2A1D; }
+            .emocion { font: 700 11px "Segoe UI", Arial, sans-serif; fill:#1B5E20; }
+            .nota { font: 400 10px "Segoe UI", Arial, sans-serif; fill:#5B6B5B; }
+            .titulo-svg { font: 800 16px "Segoe UI", Arial, sans-serif; fill:#1B5E20; }
+          </style>
+        </defs>
+        <text x="550" y="18" text-anchor="middle" class="titulo-svg">Confianza y esfuerzo percibido por etapa</text>
+
+        <line x1="60" y1="180" x2="1050" y2="180" class="eje"/>
+        <line x1="60" y1="60" x2="60" y2="180" class="eje"/>
+        <text x="30" y="64" class="nota">Alta</text>
+        <text x="30" y="178" class="nota">Baja</text>
+
+        <polygon points="90,100 240,150 390,120 540,70 690,60 840,130 990,80 990,180 90,180" fill="url(#grad-emocion)"/>
+        <polyline points="90,100 240,150 390,120 540,70 690,60 840,130 990,80" class="curva"/>
+
+        <circle cx="90" cy="100" r="6" class="punto"/>
+        <circle cx="240" cy="150" r="6" class="punto"/>
+        <circle cx="390" cy="120" r="6" class="punto"/>
+        <circle cx="540" cy="70" r="6" class="punto"/>
+        <circle cx="690" cy="60" r="6" class="punto"/>
+        <circle cx="840" cy="130" r="6" class="punto"/>
+        <circle cx="990" cy="80" r="6" class="punto"/>
+
+        <text x="90" y="205" text-anchor="middle" class="etapa">Descubrir</text>
+        <text x="240" y="205" text-anchor="middle" class="etapa">Registrarse</text>
+        <text x="390" y="205" text-anchor="middle" class="etapa">Explorar</text>
+        <text x="540" y="205" text-anchor="middle" class="etapa">Ver detalle</text>
+        <text x="690" y="205" text-anchor="middle" class="etapa">Solicitar</text>
+        <text x="840" y="205" text-anchor="middle" class="etapa">Confirmar</text>
+        <text x="990" y="205" text-anchor="middle" class="etapa">Posventa</text>
+
+        <text x="90" y="90" text-anchor="middle" class="emocion">Curiosidad</text>
+        <text x="240" y="172" text-anchor="middle" class="emocion">Duda</text>
+        <text x="390" y="110" text-anchor="middle" class="emocion">Interés</text>
+        <text x="540" y="58" text-anchor="middle" class="emocion">Confianza</text>
+        <text x="690" y="48" text-anchor="middle" class="emocion">Esperanza</text>
+        <text x="840" y="154" text-anchor="middle" class="emocion">Incertidumbre</text>
+        <text x="990" y="70" text-anchor="middle" class="emocion">Satisfacción</text>
+      </svg>
+    </div>
+
+    <h2>Customer Journey Map</h2>
+    <div style="overflow-x:auto">
+      <table class="journey">
+        <thead>
+          <tr>
+            <th scope="col">Etapa</th>
+            <th scope="col">1. Descubrir</th>
+            <th scope="col">2. Registrarse</th>
+            <th scope="col">3. Explorar</th>
+            <th scope="col">4. Ver detalle</th>
+            <th scope="col">5. Solicitar</th>
+            <th scope="col">6. Confirmar</th>
+            <th scope="col">7. Posventa</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Acciones</th>
+            <td>Llega por recomendación o redes y conoce la propuesta.</td>
+            <td>Elige rol, crea la cuenta o ingresa con sus datos.</td>
+            <td>Busca por producto o categoría y compara opciones.</td>
+            <td>Revisa precio, unidad, disponibilidad y productor.</td>
+            <td>Agrega productos, elige entrega y confirma datos.</td>
+            <td>Recibe confirmación y espera la respuesta del productor.</td>
+            <td>Recibe el producto, califica y considera volver a comprar.</td>
+          </tr>
+          <tr>
+            <th scope="row">Pantalla</th>
+            <td>Inicio</td>
+            <td>Registro / Login</td>
+            <td>Catálogo</td>
+            <td>Detalle</td>
+            <td>Solicitud</td>
+            <td>Confirmación</td>
+            <td>Panel / Historial</td>
+          </tr>
+          <tr>
+            <th scope="row">Piensa / siente</th>
+            <td>“¿Esto es confiable? ¿Quién vende?”</td>
+            <td>“¿Cuántos datos me piden? ¿Para qué?”</td>
+            <td>“¿Encontraré lo que necesito y a buen precio?”</td>
+            <td>“¿El producto es fresco? ¿El precio es justo?”</td>
+            <td>“¿Cuánto pagaré al final? ¿Cómo me llega?”</td>
+            <td>“¿Me van a contactar? ¿Cuándo llega?”</td>
+            <td>“¿Valió la pena? ¿Puedo repetir?”</td>
+          </tr>
+          <tr>
+            <th scope="row">Emoción</th>
+            <td class="emocion">🤔 Curiosidad</td>
+            <td class="emocion">😕 Duda</td>
+            <td class="emocion">🙂 Interés</td>
+            <td class="emocion">😌 Confianza</td>
+            <td class="emocion">😬 Esperanza</td>
+            <td class="emocion">😟 Incertidumbre</td>
+            <td class="emocion">😊 Satisfacción</td>
+          </tr>
+          <tr>
+            <th scope="row">Puntos de dolor</th>
+            <td class="dolor">Desconfianza hacia canales informales.</td>
+            <td class="dolor">Formulario largo y rol poco claro; miedo a compartir datos.</td>
+            <td class="dolor">Buscador poco visible; categorías confusas.</td>
+            <td class="dolor">No sabe si el precio es justo; no identifica al productor.</td>
+            <td class="dolor">Total poco claro; dudas sobre el flete y la entrega.</td>
+            <td class="dolor">No hay seguimiento ni tiempo estimado de respuesta.</td>
+            <td class="dolor">No hay historial ni reseñas visibles en el MVP.</td>
+          </tr>
+          <tr>
+            <th scope="row">Oportunidad de diseño</th>
+            <td class="oport">Propuesta de valor directa y sello “directo del productor”.</td>
+            <td class="oport">Formulario corto, roles visuales y acceso rápido para la demo.</td>
+            <td class="oport">Buscador prominente y categorías con texto e iconos.</td>
+            <td class="oport">Perfil verificado, vereda, precio y disponibilidad juntos.</td>
+            <td class="oport">Total desglosado y opciones de entrega antes de confirmar.</td>
+            <td class="oport">Estado de la solicitud y próximos pasos en la confirmación.</td>
+            <td class="oport">Historial y valoraciones (fase posterior) para fidelizar.</td>
+          </tr>
+          <tr>
+            <th scope="row">Evidencia en el prototipo</th>
+            <td>Hero + beneficios + categorías.</td>
+            <td>Selector de rol + validación + acceso rápido.</td>
+            <td>Buscador + chips + 7 productos.</td>
+            <td>Ficha con productor, vereda, rating y disponibilidad.</td>
+            <td>Lista editable + entrega + resumen con total.</td>
+            <td>Pantalla de éxito + timeline de próximos pasos.</td>
+            <td>Panel del productor + reportes (historial en fase 3).</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Del insight a la decisión de diseño</h2>
+    <table class="tabla">
+      <thead>
+        <tr><th>Insight de la Actividad 1</th><th>Decisión en el prototipo</th><th>Pantalla que lo evidencia</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>El productor vende sin conocer el precio del mercado y depende del intermediario.</td>
+          <td>Precio publicado por el productor, perfil visible y panel de precios de referencia.</td>
+          <td>Detalle y Reportes del panel.</td>
+        </tr>
+        <tr>
+          <td>El consumidor desconfía de los canales informales y de la frescura.</td>
+          <td>Sello de productor verificado, vereda y reseñas en el detalle.</td>
+          <td>Detalle del producto.</td>
+        </tr>
+        <tr>
+          <td>La conectividad es intermitente y la familiaridad digital es baja.</td>
+          <td>Diseño móvil primero, botones grandes, textos cortos y bajo peso visual.</td>
+          <td>Todas las pantallas (responsive).</td>
+        </tr>
+        <tr>
+          <td>Los usuarios dudaron del total y de la forma de entrega en la prueba anterior.</td>
+          <td>Resumen con subtotal, flete y total, más opciones de entrega explicadas.</td>
+          <td>Solicitud de compra.</td>
+        </tr>
+        <tr>
+          <td>El buscador no era evidente para dos productores.</td>
+          <td>Buscador de ancho completo antes de la cuadrícula y categorías visibles.</td>
+          <td>Catálogo.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="aviso mt-2">
+      <span aria-hidden="true">🎯</span>
+      <div><strong>Conclusión del journey:</strong> la experiencia mejora cuando el productor y el precio se hacen visibles temprano, y cuando el total y la entrega se explican antes de confirmar. Esos dos momentos concentran las oportunidades de confianza y reducen el abandono.</div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

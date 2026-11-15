@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgriMarket · UI Kit</title>
+  <meta name="description" content="Guía de estilos visual: colores, tipografía, espaciado, componentes y estados de AgriMarket.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="uikit">
+  <div id="site-header"></div>
+
+  <main class="contenedor">
+    <header class="uikit-header">
+      <span class="etiqueta" style="background:rgba(255,255,255,.16);color:#fff">Sistema de diseño</span>
+      <h1 class="mt-1">UI Kit de AgriMarket</h1>
+      <p>Guía de estilos visual del proyecto: fundamentos, componentes, estados y patrones de interfaz. Todos los elementos se derivan del prototipo y mantienen trazabilidad con los requisitos de la Actividad 1.</p>
+    </header>
+
+    <nav class="uikit-nav" aria-label="Secciones del UI Kit">
+      <a href="#fundamentos">Fundamentos</a>
+      <a href="#color">Color</a>
+      <a href="#tipografia">Tipografía</a>
+      <a href="#espaciado">Espaciado y formas</a>
+      <a href="#botones">Botones</a>
+      <a href="#formularios">Formularios</a>
+      <a href="#etiquetas">Etiquetas y avisos</a>
+      <a href="#tarjetas">Tarjetas</a>
+      <a href="#navegacion">Navegación</a>
+      <a href="#accesibilidad">Accesibilidad</a>
+    </nav>
+
+    <section class="seccion-kit" id="fundamentos">
+      <h2>1. Fundamentos de marca</h2>
+      <p class="muted">AgriMarket es una plataforma de comercialización directa. La identidad visual combina verde (campo, frescura, confianza), naranja (acción comercial) y neutros cálidos. El tono es claro, cercano y sin tecnicismos.</p>
+      <div class="grid-3">
+        <div class="componente columna">
+          <span class="etiqueta-demo">Personalidad</span>
+          <p class="mb-0"><strong>Confiable, cercana y sencilla.</strong> Prioriza la claridad sobre la decoración y evita metáforas tecnológicas.</p>
+        </div>
+        <div class="componente columna">
+          <span class="etiqueta-demo">Principios</span>
+          <p class="mb-0"><strong>1.</strong> Una acción principal por pantalla. <strong>2.</strong> El productor siempre visible. <strong>3.</strong> El precio y la entrega se explican antes de confirmar.</p>
+        </div>
+        <div class="componente columna">
+          <span class="etiqueta-demo">Contexto de uso</span>
+          <p class="mb-0"><strong>Móvil primero y bajo consumo de datos.</strong> Botones grandes, contraste alto y textos cortos para usuarios con baja familiaridad digital.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-kit" id="color">
+      <h2>2. Paleta de color</h2>
+      <p class="muted">Cada color tiene una función. El naranja de acción se oscureció a <span class="code">#A9470A</span> para garantizar contraste AA con texto blanco.</p>
+      <div class="kit-grid">
+        <div class="swatch" data-hex="#2E7D32">
+          <div class="color" style="background:#2E7D32"></div>
+          <div class="meta"><b>Verde marca</b><code>#2E7D32</code><br><small>Primario, encabezados, botones</small></div>
+        </div>
+        <div class="swatch" data-hex="#1B5E20">
+          <div class="color" style="background:#1B5E20"></div>
+          <div class="meta"><b>Verde oscuro</b><code>#1B5E20</code><br><small>Hover, texto de énfasis</small></div>
+        </div>
+        <div class="swatch" data-hex="#E2EFDA">
+          <div class="color" style="background:#E2EFDA"></div>
+          <div class="meta"><b>Verde claro</b><code>#E2EFDA</code><br><small>Fondos, etiquetas, imágenes</small></div>
+        </div>
+        <div class="swatch" data-hex="#A9470A">
+          <div class="color" style="background:#A9470A"></div>
+          <div class="meta"><b>Naranja acción</b><code>#A9470A</code><br><small>CTA de compra, contraste AA</small></div>
+        </div>
+        <div class="swatch" data-hex="#FCE4D6">
+          <div class="color" style="background:#FCE4D6"></div>
+          <div class="meta"><b>Naranja claro</b><code>#FCE4D6</code><br><small>Avisos y alertas suaves</small></div>
+        </div>
+        <div class="swatch" data-hex="#1F4E79">
+          <div class="color" style="background:#1F4E79"></div>
+          <div class="meta"><b>Azul información</b><code>#1F4E79</code><br><small>Mensajes informativos</small></div>
+        </div>
+        <div class="swatch" data-hex="#F4F8F4">
+          <div class="color" style="background:#F4F8F4;border-bottom:1px solid #DDE5DD"></div>
+          <div class="meta"><b>Fondo</b><code>#F4F8F4</code><br><small>Fondo general de pantallas</small></div>
+        </div>
+        <div class="swatch" data-hex="#1D2A1D">
+          <div class="color" style="background:#1D2A1D"></div>
+          <div class="meta"><b>Texto</b><code>#1D2A1D</code><br><small>Texto principal</small></div>
+        </div>
+        <div class="swatch" data-hex="#5B6B5B">
+          <div class="color" style="background:#5B6B5B"></div>
+          <div class="meta"><b>Gris texto</b><code>#5B6B5B</code><br><small>Texto secundario</small></div>
+        </div>
+        <div class="swatch" data-hex="#DDE5DD">
+          <div class="color" style="background:#DDE5DD;border-bottom:1px solid #C6D2C6"></div>
+          <div class="meta"><b>Borde</b><code>#DDE5DD</code><br><small>Bordes y separadores</small></div>
+        </div>
+        <div class="swatch" data-hex="#B3261E">
+          <div class="color" style="background:#B3261E"></div>
+          <div class="meta"><b>Error</b><code>#B3261E</code><br><small>Validaciones y estados críticos</small></div>
+        </div>
+        <div class="swatch" data-hex="#1E7A3C">
+          <div class="color" style="background:#1E7A3C"></div>
+          <div class="meta"><b>Éxito</b><code>#1E7A3C</code><br><small>Confirmaciones</small></div>
+        </div>
+      </div>
+
+      <h3 class="mt-3">Contraste y uso</h3>
+      <table class="tabla">
+        <thead>
+          <tr><th>Combinación</th><th>Uso</th><th>Contraste</th><th>Cumple</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Blanco sobre verde #2E7D32</td><td>Botón primario y encabezado</td><td>5,1:1</td><td><span class="etiqueta">AA</span></td></tr>
+          <tr><td>Blanco sobre naranja #A9470A</td><td>Botón de compra</td><td>5,9:1</td><td><span class="etiqueta">AA</span></td></tr>
+          <tr><td>Texto #1D2A1D sobre fondo #F4F8F4</td><td>Texto general</td><td>14,0:1</td><td><span class="etiqueta">AAA</span></td></tr>
+          <tr><td>Gris #5B6B5B sobre blanco</td><td>Texto secundario</td><td>5,6:1</td><td><span class="etiqueta">AA</span></td></tr>
+          <tr><td>Naranja #C55A11 sobre blanco</td><td>Solo decorativo / iconos</td><td>4,3:1</td><td><span class="etiqueta pend">No para texto</span></td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="seccion-kit tipografia" id="tipografia">
+      <h2>3. Tipografía</h2>
+      <p class="muted">Familia: <strong>Segoe UI</strong> (respaldo: Inter, system-ui, Arial). Es legible en pantallas de gama baja y está disponible en Windows, el sistema operativo más usado por los productores entrevistados.</p>
+
+      <div class="fila-tipo">
+        <div class="muestra" style="font-size:34px;font-weight:800;line-height:1.1">Productos frescos del campo</div>
+        <code>Display · 34/40 · 800</code>
+      </div>
+      <div class="fila-tipo">
+        <div class="muestra" style="font-size:28px;font-weight:700">Título de pantalla (H1)</div>
+        <code>H1 · 28/34 · 700</code>
+      </div>
+      <div class="fila-tipo">
+        <div class="muestra" style="font-size:20px;font-weight:700">Título de sección (H2)</div>
+        <code>H2 · 20/26 · 700</code>
+      </div>
+      <div class="fila-tipo">
+        <div class="muestra" style="font-size:17px;font-weight:700">Subtítulo o nombre de tarjeta (H3)</div>
+        <code>H3 · 17/22 · 700</code>
+      </div>
+      <div class="fila-tipo">
+        <div class="muestra" style="font-size:16px">Texto de párrafo: el productor publica su cosecha y recibe solicitudes directas.</div>
+        <code>Body · 16/24 · 400</code>
+      </div>
+      <div class="fila-tipo">
+        <div class="muestra" style="font-size:13px">Texto auxiliar, ayudas y notas al pie.</div>
+        <code>Small · 13/20 · 400</code>
+      </div>
+      <div class="fila-tipo">
+        <div class="muestra" style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#5B6B5B">Etiqueta de sección</div>
+        <code>Caption · 12/16 · 700</code>
+      </div>
+
+      <div class="componente mt-2">
+        <span class="etiqueta-demo">Reglas de uso</span>
+        <ul class="pequeno muted" style="margin:0;padding-left:18px">
+          <li>Máximo dos pesos por pantalla: 400 para lectura y 700/800 para jerarquía.</li>
+          <li>No usar mayúsculas sostenidas en párrafos; solo en etiquetas cortas.</li>
+          <li>Longitud de línea recomendada: 60-75 caracteres.</li>
+          <li>Evitar texto sobre imágenes sin capa de contraste.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="seccion-kit" id="espaciado">
+      <h2>4. Espaciado, radios y sombras</h2>
+      <div class="grid-2">
+        <div>
+          <h3>Escala de espaciado (base 4)</h3>
+          <div class="espaciado">
+            <div class="cubo" style="width:24px;height:24px">4</div>
+            <div class="cubo" style="width:32px;height:32px">8</div>
+            <div class="cubo" style="width:44px;height:44px">12</div>
+            <div class="cubo" style="width:56px;height:56px">16</div>
+            <div class="cubo" style="width:68px;height:68px">20</div>
+            <div class="cubo" style="width:80px;height:80px">24</div>
+            <div class="cubo" style="width:104px;height:104px">32</div>
+            <div class="cubo" style="width:128px;height:128px">40</div>
+          </div>
+          <p class="pequeno muted mt-2 mb-0">Espaciado interno de tarjetas: 14-20 px. Separación entre secciones: 24-32 px. Márgenes laterales móviles: 16 px.</p>
+        </div>
+        <div>
+          <h3>Radios</h3>
+          <div class="fila" style="gap:10px">
+            <div style="width:62px;height:62px;background:#E2EFDA;border:1px solid #C6D2C6;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700">6</div>
+            <div style="width:62px;height:62px;background:#E2EFDA;border:1px solid #C6D2C6;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700">8</div>
+            <div style="width:62px;height:62px;background:#E2EFDA;border:1px solid #C6D2C6;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700">10</div>
+            <div style="width:62px;height:62px;background:#E2EFDA;border:1px solid #C6D2C6;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700">14</div>
+            <div style="width:62px;height:62px;background:#E2EFDA;border:1px solid #C6D2C6;border-radius:18px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700">18</div>
+            <div style="width:62px;height:62px;background:#E2EFDA;border:1px solid #C6D2C6;border-radius:999px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700">pill</div>
+          </div>
+
+          <h3 class="mt-3">Elevaciones</h3>
+          <div class="fila" style="gap:12px">
+            <div style="width:92px;height:58px;background:#fff;border:1px solid #DDE5DD;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.05);display:flex;align-items:center;justify-content:center;font-size:11px">Nivel 1</div>
+            <div style="width:92px;height:58px;background:#fff;border:1px solid #DDE5DD;border-radius:10px;box-shadow:0 8px 26px rgba(27,94,32,.1);display:flex;align-items:center;justify-content:center;font-size:11px">Nivel 2</div>
+            <div style="width:92px;height:58px;background:#fff;border:1px solid #DDE5DD;border-radius:10px;box-shadow:0 16px 40px rgba(0,0,0,.16);display:flex;align-items:center;justify-content:center;font-size:11px">Nivel 3</div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="mt-3">Tokens CSS</h3>
+      <pre class="code" style="display:block;padding:14px;white-space:pre-wrap;line-height:1.6">:root {
+  --verde: #2E7D32;      --verde-osc: #1B5E20;
+  --verde-claro: #E2EFDA; --naranja: #C55A11;
+  --naranja-accion: #A9470A; --fondo: #F4F8F4;
+  --texto: #1D2A1D;      --gris: #5B6B5B;
+  --borde: #DDE5DD;      --radio-md: 10px;
+  --radio-lg: 14px;      --sombra-1: 0 1px 3px rgba(0,0,0,.05);
+  --fuente: "Segoe UI", "Inter", system-ui, Arial, sans-serif;
+}</pre>
+    </section>
+
+    <section class="seccion-kit" id="botones">
+      <h2>5. Botones</h2>
+      <div class="grid-2">
+        <div class="componente columna">
+          <span class="etiqueta-demo">Jerarquía</span>
+          <div class="fila">
+            <button class="btn" type="button">Acción primaria</button>
+            <button class="btn nar" type="button">Comprar / publicar</button>
+          </div>
+          <div class="fila">
+            <button class="btn sec" type="button">Acción secundaria</button>
+            <button class="btn ghost" type="button">Acción terciaria</button>
+          </div>
+          <div class="fila">
+            <button class="btn sm" type="button">Botón pequeño</button>
+            <button class="btn" type="button" disabled>Deshabilitado</button>
+          </div>
+        </div>
+        <div class="componente columna">
+          <span class="etiqueta-demo">Estados y medidas</span>
+          <div class="fila">
+            <button class="btn" type="button" style="outline:3px solid #9CCC9C;outline-offset:2px">Foco visible</button>
+            <button class="btn bloque" type="button" style="width:auto">Ancho completo</button>
+          </div>
+          <table class="tabla">
+            <thead><tr><th>Tipo</th><th>Uso</th><th>Altura</th></tr></thead>
+            <tbody>
+              <tr><td>Primario verde</td><td>Confirmar, guardar</td><td>44 px</td></tr>
+              <tr><td>Naranja</td><td>Comprar, publicar</td><td>44 px</td></tr>
+              <tr><td>Secundario</td><td>Cancelar, volver</td><td>44 px</td></tr>
+              <tr><td>Pequeño</td><td>Acciones en tarjetas</td><td>36 px</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <p class="pequeno muted mt-2 mb-0">Regla: una sola acción naranja por pantalla. El botón deshabilitado no recibe foco y conserva el texto legible.</p>
+    </section>
+
+    <section class="seccion-kit" id="formularios">
+      <h2>6. Formularios y campos</h2>
+      <div class="grid-2">
+        <div class="componente columna">
+          <span class="etiqueta-demo">Campo de texto</span>
+          <div class="campo">
+            <label for="kit-nombre">Nombre del producto</label>
+            <input id="kit-nombre" type="text" placeholder="Ej. Plátano hartón">
+            <span class="ayuda">Texto de ayuda: usa un nombre reconocible.</span>
+          </div>
+          <div class="campo error">
+            <label for="kit-error">Precio</label>
+            <input id="kit-error" type="text" value="0">
+            <span class="ayuda">El precio debe ser mayor que cero.</span>
+          </div>
+          <div class="campo">
+            <label for="kit-select">Categoría</label>
+            <select id="kit-select"><option>Frutas</option><option>Hortalizas</option></select>
+          </div>
+          <div class="campo">
+            <label for="kit-desc">Descripción</label>
+            <textarea id="kit-desc" rows="3" placeholder="Detalle del producto..."></textarea>
+          </div>
+        </div>
+        <div class="componente columna">
+          <span class="etiqueta-demo">Selección</span>
+          <label class="check"><input type="checkbox" checked> Acepto los términos y el tratamiento de datos</label>
+          <div class="fila">
+            <label class="check" style="flex:1"><input type="radio" name="kit-radio" checked> Consumidor</label>
+            <label class="check" style="flex:1"><input type="radio" name="kit-radio"> Productor</label>
+          </div>
+          <span class="etiqueta-demo mt-2">Selector de rol (tarjetas)</span>
+          <div class="roles">
+            <label class="rol">
+              <input type="radio" name="kit-rol" checked>
+              <span class="rol-ico" aria-hidden="true">🛒</span>
+              <b>Consumidor</b>
+              <small>Comprar productos frescos</small>
+            </label>
+            <label class="rol">
+              <input type="radio" name="kit-rol">
+              <span class="rol-ico" aria-hidden="true">🌱</span>
+              <b>Productor</b>
+              <small>Vender mi cosecha</small>
+            </label>
+          </div>
+          <div class="aviso info mt-2">
+            <span aria-hidden="true">ℹ️</span>
+            <div>Los mensajes de error se muestran debajo del campo y usan texto, no solo color.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-kit" id="etiquetas">
+      <h2>7. Etiquetas, estados y avisos</h2>
+      <div class="grid-2">
+        <div class="componente columna">
+          <span class="etiqueta-demo">Etiquetas de estado</span>
+          <div class="fila">
+            <span class="etiqueta">Disponible</span>
+            <span class="etiqueta pend">Pendiente</span>
+            <span class="etiqueta">Aceptada</span>
+            <span class="etiqueta rech">Rechazada</span>
+            <span class="etiqueta info">Informativa</span>
+            <span class="etiqueta neutra">Agotada</span>
+          </div>
+          <span class="etiqueta-demo mt-2">Avisos</span>
+          <div class="aviso info"><span aria-hidden="true">ℹ️</span><div><strong>Información.</strong> El precio lo publica cada productor.</div></div>
+          <div class="aviso ok"><span aria-hidden="true">✔</span><div><strong>Éxito.</strong> Solicitud enviada al productor.</div></div>
+          <div class="aviso"><span aria-hidden="true">⚠️</span><div><strong>Atención.</strong> Revisa la cantidad antes de confirmar.</div></div>
+          <div class="aviso error"><span aria-hidden="true">✕</span><div><strong>Error.</strong> Completa nombre, dirección y teléfono.</div></div>
+        </div>
+        <div class="componente columna">
+          <span class="etiqueta-demo">Toast / notificación</span>
+          <div class="toast" style="position:static;display:inline-block">Producto agregado a la solicitud</div>
+          <div class="toast error" style="position:static;display:inline-block;margin-top:8px">Revisa tu correo y contraseña</div>
+          <span class="etiqueta-demo mt-2">Vacío y carga</span>
+          <div class="vacio" style="padding:18px">
+            <p class="mb-1"><strong>No se encontraron productos.</strong></p>
+            <p class="pequeno mb-0">Prueba con otra palabra o selecciona “Todos”.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-kit" id="tarjetas">
+      <h2>8. Tarjetas y patrones</h2>
+      <div class="grid-3">
+        <div class="card">
+          <div class="foto" aria-hidden="true">🍌</div>
+          <div class="cuerpo">
+            <div class="nombre">Plátano hartón</div>
+            <div class="precio">$2.500 / kg</div>
+            <div class="prod">José Ramón · El Naranjal</div>
+            <span class="btn sm">Ver producto</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cuerpo">
+            <span class="etiqueta">Categoría</span>
+            <h3 class="mt-1 mb-0">Frutas</h3>
+            <p class="pequeno muted mb-0">Productos frescos de la vereda.</p>
+          </div>
+        </div>
+        <div class="stat">
+          <div class="num">$6.500</div>
+          <div class="lbl">Ventas estimadas</div>
+          <p class="pequeno muted mt-2 mb-0">Dato de demostración del panel.</p>
+        </div>
+      </div>
+
+      <h3 class="mt-3">Búsqueda y filtros</h3>
+      <div class="barra-buscar" style="max-width:640px">
+        <div class="caja-buscar">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          <input type="search" placeholder="Buscar producto o productor..." aria-label="Ejemplo de búsqueda">
+        </div>
+        <button class="btn" type="button">Buscar</button>
+      </div>
+      <div class="cat">
+        <button class="activo" type="button">Todos</button>
+        <button type="button">Frutas</button>
+        <button type="button">Hortalizas</button>
+        <button type="button">Tubérculos</button>
+      </div>
+    </section>
+
+    <section class="seccion-kit" id="navegacion">
+      <h2>9. Navegación</h2>
+      <p class="muted">El encabezado es fijo, con el logo a la izquierda y la navegación a la derecha. En móvil se colapsa en un botón de menú con etiqueta accesible.</p>
+      <div class="componente columna" style="padding:0;overflow:hidden">
+        <div class="barra" style="max-width:none">
+          <span class="logo" style="font-size:20px">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 4 13c0-6 5-9 16-9 0 11-3 16-9 16Z"/><path d="M4 21c3-6 7-9 13-11"/></svg>
+            Agri<span>Market</span>
+          </span>
+          <span class="nav" style="margin-left:auto">
+            <a class="activo" href="index.html">Inicio</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="panel.html">Mi panel</a>
+            <a href="solicitud.html">Carrito (2)</a>
+          </span>
+        </div>
+      </div>
+
+      <div class="grid-2 mt-2">
+        <div class="componente columna">
+          <span class="etiqueta-demo">Migas de pan</span>
+          <p class="pequeno"><a class="link" href="index.html">Inicio</a> / <a class="link" href="catalogo.html">Catálogo</a> / <strong>Plátano hartón</strong></p>
+          <span class="etiqueta-demo mt-2">Pestañas</span>
+          <div class="tabs" style="margin:0">
+            <button class="activo" type="button">Resumen</button>
+            <button type="button">Productos</button>
+            <button type="button">Solicitudes</button>
+            <button type="button">Reportes</button>
+          </div>
+        </div>
+        <div class="componente columna">
+          <span class="etiqueta-demo">Iconografía</span>
+          <div class="fila" style="gap:18px;color:#1B5E20">
+            <span title="Hoja"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 4 13c0-6 5-9 16-9 0 11-3 16-9 16Z"/><path d="M4 21c3-6 7-9 13-11"/></svg></span>
+            <span title="Tienda"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l1.5-5h15L21 9"/><path d="M4 9v11h16V9"/><path d="M9 20v-6h6v6"/></svg></span>
+            <span title="Carrito"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1"/><circle cx="19" cy="20" r="1"/><path d="M2 3h3l2.4 11.2a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 2-1.6L22 7H6"/></svg></span>
+            <span title="Ubicación"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <span title="Verificado"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="M9 12l2 2 4-4"/></svg></span>
+            <span title="Menú"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></span>
+          </div>
+          <p class="pequeno muted mt-2 mb-0">Trazo de 2 px, tamaño 16-22 px, color heredado. Los iconos siempre acompañan un texto o tienen <span class="code">aria-label</span>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-kit" id="accesibilidad">
+      <h2>10. Accesibilidad y usabilidad</h2>
+      <div class="grid-2">
+        <div>
+          <ul class="pequeno" style="padding-left:18px;line-height:1.8">
+            <li><strong>Contraste:</strong> texto normal ≥ 4,5:1; texto grande ≥ 3:1 (WCAG 2.1 AA).</li>
+            <li><strong>Objetivos táctiles:</strong> mínimo 44 × 44 px; separación de 8 px.</li>
+            <li><strong>Foco visible:</strong> contorno de 3 px en todos los elementos interactivos.</li>
+            <li><strong>Formularios:</strong> etiqueta siempre visible, ayuda y error en texto, no solo color.</li>
+            <li><strong>Navegación:</strong> un solo H1 por pantalla, jerarquía H1-H2-H3 y enlaces descriptivos.</li>
+            <li><strong>Movimiento:</strong> se respeta <span class="code">prefers-reduced-motion</span>; sin animaciones esenciales.</li>
+            <li><strong>Imágenes:</strong> emojis decorativos con <span class="code">aria-hidden</span> y texto alternativo en imágenes reales.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Correspondencia con heurísticas de Nielsen</h3>
+          <table class="tabla">
+            <thead><tr><th>Heurística</th><th>Decisión de diseño</th></tr></thead>
+            <tbody>
+              <tr><td>Visibilidad del estado</td><td>Carrito con contador, estados de solicitud y confirmación.</td></tr>
+              <tr><td>Lenguaje del usuario</td><td>“Solicitud”, “finca”, “vereda”, “cosecha”; sin tecnicismos.</td></tr>
+              <tr><td>Control y libertad</td><td>Volver al catálogo, editar/eliminar productos, cancelar.</td></tr>
+              <tr><td>Consistencia</td><td>Mismos botones, etiquetas y posición del logo en todas las pantallas.</td></tr>
+              <tr><td>Prevención de errores</td><td>Validación antes de publicar/confirmar y confirmación de datos.</td></tr>
+              <tr><td>Reconocimiento</td><td>Categorías con texto e iconos; perfil del productor visible.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/app.js"></script>
+  <script>
+    (function () {
+      var q = new URLSearchParams(location.search);
+      if (q.get('vista') === 'componentes') document.body.classList.add('vista-componentes');
+      if (q.get('vista') === 'fundamentos') document.body.classList.add('vista-fundamentos');
+    })();
+  </script>
+  <style>
+    .vista-componentes #fundamentos,
+    .vista-componentes #color,
+    .vista-componentes #tipografia,
+    .vista-componentes #espaciado { display: none; }
+    .vista-fundamentos #botones,
+    .vista-fundamentos #formularios,
+    .vista-fundamentos #etiquetas,
+    .vista-fundamentos #tarjetas,
+    .vista-fundamentos #navegacion,
+    .vista-fundamentos #accesibilidad { display: none; }
+  </style>
+</body>
+</html>

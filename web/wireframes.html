@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgriMarket · Wireframes de baja fidelidad</title>
+  <meta name="description" content="Wireframes de baja fidelidad de las pantallas principales del MVP de AgriMarket.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="wireframes">
+  <div id="site-header"></div>
+
+  <main class="contenedor">
+    <h1>Wireframes de baja fidelidad</h1>
+    <p class="sub">Estructura, jerarquía y distribución del contenido de las ocho pantallas principales del MVP. Sin color, tipografía final ni imágenes reales: solo la organización de la información.</p>
+
+    <div class="aviso info">
+      <span aria-hidden="true">ℹ️</span>
+      <div><strong>Cómo leerlos:</strong> cada marco representa una pantalla; las cajas grises son contenedores, las líneas son texto y los rectángulos con borde son acciones. Las notas naranjas explican la intención de diseño y su relación con las historias de usuario.</div>
+    </div>
+
+    <div class="wire-board">
+      <article class="marco-wire">
+        <h3><span class="num">WF-01</span> Ingreso</h3>
+        <p>US-02 · Acceso con correo y contraseña; acceso rápido por rol para la demostración.</p>
+        <div class="pantalla-wire">
+          <div class="wire-barra"><span class="wire-logo"></span><span class="wire-nav"><i></i><i></i><i></i><i></i></span></div>
+          <div style="max-width:72%;margin:0 auto;border:1px solid #c4cac4;border-radius:4px;padding:12px;background:#fff">
+            <div class="wire-linea titulo" style="width:48%"></div>
+            <div class="wire-linea corta"></div>
+            <div class="wire-linea" style="width:34%;height:7px"></div>
+            <div class="wire-campo"></div>
+            <div class="wire-linea" style="width:40%;height:7px"></div>
+            <div class="wire-campo"></div>
+            <div class="wire-btn" style="display:block;text-align:center">Ingresar</div>
+            <div class="wire-linea corta" style="margin:8px auto 0"></div>
+            <div style="border-top:1px solid #d5dbd5;margin:10px 0"></div>
+            <div style="display:flex;gap:6px"><span class="wire-btn" style="flex:1;text-align:center">Consumidor</span><span class="wire-btn" style="flex:1;text-align:center">Productor</span></div>
+          </div>
+        </div>
+        <div class="wire-anotacion">El acceso rápido por rol reduce la fricción en las pruebas de usabilidad y permite demostrar los dos recorridos sin crear cuentas.</div>
+      </article>
+
+      <article class="marco-wire">
+        <h3><span class="num">WF-02</span> Registro</h3>
+        <p>US-01 · Un solo formulario con selección de rol y validación visible.</p>
+        <div class="pantalla-wire">
+          <div class="wire-barra"><span class="wire-logo"></span><span class="wire-nav"><i></i><i></i><i></i><i></i></span></div>
+          <div style="max-width:78%;margin:0 auto;border:1px solid #c4cac4;border-radius:4px;padding:12px;background:#fff">
+            <div class="wire-linea titulo" style="width:54%"></div>
+            <div class="wire-linea corta"></div>
+            <div style="display:flex;gap:6px;margin:8px 0">
+              <div style="flex:1;border:1.5px solid #8d968d;border-radius:4px;padding:6px"><div class="wire-linea media" style="height:7px"></div><div class="wire-linea" style="height:6px;width:60%"></div></div>
+              <div style="flex:1;border:1px solid #c4cac4;border-radius:4px;padding:6px"><div class="wire-linea media" style="height:7px"></div><div class="wire-linea" style="height:6px;width:60%"></div></div>
+            </div>
+            <div class="wire-linea" style="width:36%;height:7px"></div>
+            <div class="wire-campo"></div>
+            <div style="display:flex;gap:6px"><div class="wire-campo" style="flex:1"></div><div class="wire-campo" style="flex:1"></div></div>
+            <div style="display:flex;gap:6px"><div class="wire-campo" style="flex:1"></div><div class="wire-campo" style="flex:1"></div></div>
+            <div class="wire-linea media" style="height:7px"></div>
+            <div class="wire-btn" style="display:block;text-align:center">Registrarme</div>
+          </div>
+        </div>
+        <div class="wire-anotacion">El rol se elige al inicio para adaptar el panel posterior; los campos de finca se completan después, no en el registro.</div>
+      </article>
+
+      <article class="marco-wire">
+        <h3><span class="num">WF-03</span> Inicio</h3>
+        <p>US-06 · Punto de entrada: propuesta de valor, categorías y productos destacados.</p>
+        <div class="pantalla-wire">
+          <div class="wire-barra"><span class="wire-logo"></span><span class="wire-nav"><i></i><i></i><i></i><i></i></span></div>
+          <div class="wire-hero">
+            <div class="wire-linea titulo" style="width:68%"></div>
+            <div class="wire-linea media"></div>
+            <div class="wire-linea corta"></div>
+            <span class="wire-btn" style="margin-top:6px">Ver catálogo</span>
+            <span class="wire-btn">Quiero vender</span>
+          </div>
+          <div class="wire-linea" style="width:28%;height:11px"></div>
+          <div class="wire-grid" style="margin:7px 0 10px">
+            <div class="wire-card"><div class="wire-foto"></div><div class="wire-linea corta"></div></div>
+            <div class="wire-card"><div class="wire-foto"></div><div class="wire-linea corta"></div></div>
+            <div class="wire-card"><div class="wire-foto"></div><div class="wire-linea corta"></div></div>
+          </div>
+          <div class="wire-linea" style="width:34%;height:11px"></div>
+          <div class="wire-grid">
+            <div class="wire-card"><div class="wire-foto"></div><div class="wire-linea media"></div><div class="wire-linea corta"></div></div>
+            <div class="wire-card"><div class="wire-foto"></div><div class="wire-linea media"></div><div class="wire-linea corta"></div></div>
+            <div class="wire-card"><div class="wire-foto"></div><div class="wire-linea media"></div><div class="wire-linea corta"></div></div>
+          </div>
+        </div>
+        <div class="wire-anotacion">La primera pantalla responde “qué es y para qué sirve” en menos de 5 segundos; el CTA naranja lleva al catálogo.</div>
+      </article>
+
+      <article class="marco-wire">
+        <h3><span class="num">WF-04</span> Catálogo</h3>
+        <p>US-06 y US-07 · Búsqueda visible, filtros por categoría y resultados.</p>
+        <div class="pantalla-wire">
+          <div class="wire-barra"><span class="wire-logo"></span><span class="wire-nav"><i></i><i></i><i></i><i></i></span></div>
+          <div class="wire-linea titulo" style="width:30%"></div>
+          <div class="wire-linea corta"></div>
+          <div style="display:flex;gap:6px;margin:8px 0">
+            <div class="wire-campo" style="flex:1;margin:0"></div>
+            <span class="wire-btn">Buscar</span>
+          </div>
+          <div style="margin-bottom:8px">
+            <span class="wire-etiqueta">Todos</span><span class="wire-etiqueta">Frutas</span><span class="wire-etiqueta">Hortalizas</span><span class="wire-etiqueta">Tubérculos</span><span class="wire-etiqueta">Cereales</span>
+          </div>
+          <div class="wire-linea corta" style="width:32%;height:7px"></div>
+          <div class="wire-grid">
+            <div class="wire-card"><div class="wire-foto"></div><div class="wire-linea media"></div><div class="wire-linea corta"></div><span class="wire-btn" style="display:block;text-align:center;margin-top:5px">Ver</span></div>
+            <div class="wire-card"><div class="wire-foto"></div><div class="wire-linea media"></div><div class="wire-linea corta"></div><span class="wire-btn" style="display:block;text-align:center;margin-top:5px">Ver</span></div>
+            <div class="wire-card"><div class="wire-foto"></div><div class="wire-linea media"></div><div class="wire-linea corta"></div><span class="wire-btn" style="display:block;text-align:center;margin-top:5px">Ver</span></div>
+            <div class="wire-card"><div class="wire-foto"></div><div class="wire-linea media"></div><div class="wire-linea corta"></div><span class="wire-btn" style="display:block;text-align:center;margin-top:5px">Ver</span></div>
+            <div class="wire-card"><div class="wire-foto"></div><div class="wire-linea media"></div><div class="wire-linea corta"></div><span class="wire-btn" style="display:block;text-align:center;margin-top:5px">Ver</span></div>
+            <div class="wire-card"><div class="wire-foto"></div><div class="wire-linea media"></div><div class="wire-linea corta"></div><span class="wire-btn" style="display:block;text-align:center;margin-top:5px">Ver</span></div>
+          </div>
+        </div>
+        <div class="wire-anotacion">El buscador y las categorías se ubican antes de la cuadrícula para corregir el hallazgo de la prueba anterior (dos usuarios no encontraban el buscador).</div>
+      </article>
+
+      <article class="marco-wire">
+        <h3><span class="num">WF-05</span> Detalle del producto</h3>
+        <p>US-08 · Imagen, precio, disponibilidad y perfil del productor como sello de confianza.</p>
+        <div class="pantalla-wire">
+          <div class="wire-barra"><span class="wire-logo"></span><span class="wire-nav"><i></i><i></i><i></i><i></i></span></div>
+          <div class="wire-linea corta" style="width:22%;height:7px"></div>
+          <div class="wire-dos" style="margin-top:8px">
+            <div>
+              <div style="border:1px solid #c4cac4;border-radius:4px;height:110px;background:#ecefec;display:flex;align-items:center;justify-content:center;font-size:28px">◻</div>
+            </div>
+            <div>
+              <span class="wire-etiqueta">Categoría</span>
+              <div class="wire-linea titulo" style="width:78%"></div>
+              <div class="wire-linea media"></div>
+              <div class="wire-linea" style="width:38%;height:15px"></div>
+              <div class="wire-linea media"></div>
+              <div class="wire-linea corta"></div>
+              <div style="border:1px solid #c4cac4;border-radius:4px;padding:7px;margin:8px 0">
+                <div class="wire-linea media" style="height:7px"></div>
+                <div class="wire-linea corta" style="height:6px"></div>
+              </div>
+              <div class="wire-campo" style="width:40%;height:22px"></div>
+              <div class="wire-btn" style="display:block;text-align:center;margin-top:5px">Agregar a la solicitud</div>
+            </div>
+          </div>
+        </div>
+        <div class="wire-anotacion">El productor, su vereda y la verificación aparecen junto al precio, no al final. El botón de agregar es la única acción naranja.</div>
+      </article>
+
+      <article class="marco-wire">
+        <h3><span class="num">WF-06</span> Solicitud de compra</h3>
+        <p>US-09 · Lista de productos, datos de entrega y total desglosado antes de confirmar.</p>
+        <div class="pantalla-wire">
+          <div class="wire-barra"><span class="wire-logo"></span><span class="wire-nav"><i></i><i></i><i></i><i></i></span></div>
+          <div class="wire-linea titulo" style="width:40%"></div>
+          <div class="wire-dos">
+            <div>
+              <div style="border:1px solid #c4cac4;border-radius:4px;padding:7px;margin-bottom:6px;display:flex;gap:6px;align-items:center"><div style="width:28px;height:28px;background:#e3e7e3;border-radius:3px"></div><div style="flex:1"><div class="wire-linea media" style="height:7px"></div><div class="wire-linea corta" style="height:6px"></div></div><div class="wire-linea" style="width:35px;height:8px"></div></div>
+              <div style="border:1px solid #c4cac4;border-radius:4px;padding:7px;margin-bottom:8px;display:flex;gap:6px;align-items:center"><div style="width:28px;height:28px;background:#e3e7e3;border-radius:3px"></div><div style="flex:1"><div class="wire-linea media" style="height:7px"></div><div class="wire-linea corta" style="height:6px"></div></div><div class="wire-linea" style="width:35px;height:8px"></div></div>
+              <div class="wire-linea" style="width:34%;height:8px"></div>
+              <div style="display:flex;gap:6px"><div class="wire-campo" style="flex:1"></div><div class="wire-campo" style="flex:1"></div></div>
+              <div class="wire-campo"></div>
+              <div class="wire-linea" style="width:42%;height:8px"></div>
+              <div style="border:1px solid #c4cac4;border-radius:4px;padding:6px;margin-bottom:5px"><div class="wire-linea media" style="height:7px"></div><div class="wire-linea corta" style="height:6px"></div></div>
+              <div style="border:1px solid #c4cac4;border-radius:4px;padding:6px"><div class="wire-linea media" style="height:7px"></div><div class="wire-linea corta" style="height:6px"></div></div>
+              <div class="wire-btn" style="display:block;text-align:center;margin-top:8px">Confirmar solicitud</div>
+            </div>
+            <div>
+              <div style="border:1px solid #8d968d;border-radius:4px;padding:8px">
+                <div class="wire-linea media" style="height:8px"></div>
+                <div class="wire-linea" style="height:6px"></div>
+                <div class="wire-linea" style="height:6px"></div>
+                <div style="border-top:1px solid #c4cac4;margin:6px 0;padding-top:6px"><div class="wire-linea media" style="height:9px"></div></div>
+                <div class="wire-linea corta" style="height:6px"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wire-anotacion">Se separan productos, entrega y resumen. El total incluye subtotal y flete para resolver la duda detectada en la prueba (“no sabía cuánto pagaba al final”).</div>
+      </article>
+
+      <article class="marco-wire">
+        <h3><span class="num">WF-07</span> Panel del productor</h3>
+        <p>US-03, US-05 y US-10 · Perfil, productos, solicitudes y reportes en un solo lugar.</p>
+        <div class="pantalla-wire">
+          <div class="wire-barra"><span class="wire-logo"></span><span class="wire-nav"><i></i><i></i><i></i><i></i></span></div>
+          <div class="wire-linea titulo" style="width:26%"></div>
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:7px 0">
+            <div style="border:1px solid #c4cac4;border-radius:4px;padding:7px"><div class="wire-linea" style="width:34%;height:14px"></div><div class="wire-linea corta" style="height:6px"></div></div>
+            <div style="border:1px solid #c4cac4;border-radius:4px;padding:7px"><div class="wire-linea" style="width:34%;height:14px"></div><div class="wire-linea corta" style="height:6px"></div></div>
+            <div style="border:1px solid #c4cac4;border-radius:4px;padding:7px"><div class="wire-linea" style="width:44%;height:14px"></div><div class="wire-linea corta" style="height:6px"></div></div>
+          </div>
+          <div class="wire-linea" style="width:34%;height:8px"></div>
+          <div style="border:1px solid #c4cac4;border-radius:4px;padding:7px;margin-bottom:8px">
+            <div style="display:flex;gap:6px"><div class="wire-campo" style="flex:1"></div><div class="wire-campo" style="flex:1"></div></div>
+            <div class="wire-campo"></div>
+            <div class="wire-btn">Guardar</div>
+          </div>
+          <div style="display:flex;gap:8px">
+            <div style="flex:1">
+              <div class="wire-linea" style="width:40%;height:8px"></div>
+              <div class="wire-grid" style="grid-template-columns:1fr 1fr">
+                <div class="wire-card"><div class="wire-foto"></div><div class="wire-linea media"></div><div class="wire-linea corta"></div></div>
+                <div class="wire-card"><div class="wire-foto"></div><div class="wire-linea media"></div><div class="wire-linea corta"></div></div>
+              </div>
+            </div>
+            <div style="flex:1">
+              <div class="wire-linea" style="width:50%;height:8px"></div>
+              <div style="border:1px solid #c4cac4;border-radius:4px;padding:7px;margin-bottom:5px"><div class="wire-linea media" style="height:7px"></div><div class="wire-linea corta" style="height:6px"></div><div style="display:flex;gap:4px;margin-top:5px"><span class="wire-btn">Aceptar</span><span class="wire-btn">Rechazar</span></div></div>
+              <div style="border:1px solid #c4cac4;border-radius:4px;padding:7px"><div class="wire-linea media" style="height:7px"></div><div class="wire-linea corta" style="height:6px"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="wire-anotacion">La primera fila responde “cómo va mi negocio”; las acciones de aceptar/rechazar quedan junto a cada solicitud. Los reportes se separan en una pestaña.</div>
+      </article>
+
+      <article class="marco-wire">
+        <h3><span class="num">WF-08</span> Publicar producto</h3>
+        <p>US-04 · Formulario corto, validación y vista previa de la tarjeta.</p>
+        <div class="pantalla-wire">
+          <div class="wire-barra"><span class="wire-logo"></span><span class="wire-nav"><i></i><i></i><i></i><i></i></span></div>
+          <div class="wire-dos">
+            <div>
+              <div class="wire-linea titulo" style="width:44%"></div>
+              <div class="wire-linea corta"></div>
+              <div class="wire-linea" style="width:34%;height:7px"></div>
+              <div class="wire-campo"></div>
+              <div style="display:flex;gap:6px"><div class="wire-campo" style="flex:1"></div><div class="wire-campo" style="flex:1"></div></div>
+              <div style="display:flex;gap:6px"><div class="wire-campo" style="flex:1"></div><div class="wire-campo" style="flex:1"></div></div>
+              <div class="wire-linea" style="width:30%;height:7px"></div>
+              <div class="wire-campo" style="height:40px"></div>
+              <div style="border:1.5px dashed #b7beb7;border-radius:4px;padding:10px;text-align:center;margin-bottom:7px"><div class="wire-linea media" style="margin:0 auto 4px"></div><div class="wire-linea corta" style="margin:0 auto"></div></div>
+              <div class="wire-btn" style="display:block;text-align:center">Publicar producto</div>
+            </div>
+            <div>
+              <div style="border:1px solid #c4cac4;border-radius:4px;padding:8px;margin-bottom:7px">
+                <div class="wire-linea" style="width:40%;height:8px"></div>
+                <div class="wire-linea media" style="height:6px"></div>
+                <div class="wire-linea" style="height:6px"></div>
+                <div class="wire-linea corta" style="height:6px"></div>
+              </div>
+              <div style="border:1px solid #c4cac4;border-radius:4px;overflow:hidden">
+                <div class="wire-foto" style="height:48px"></div>
+                <div style="padding:7px"><div class="wire-linea media" style="height:7px"></div><div class="wire-linea" style="width:40%;height:9px"></div><div class="wire-linea corta" style="height:6px"></div><span class="wire-etiqueta">Disponible</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wire-anotacion">La vista previa evita publicar una tarjeta incompleta. Los campos obligatorios se validan antes de enviar y el botón naranja cierra el flujo.</div>
+      </article>
+    </div>
+
+    <div class="aviso mt-3">
+      <span aria-hidden="true">🔎</span>
+      <div><strong>Decisiones transversales:</strong> encabezado fijo con el mismo orden en todas las pantallas; una sola acción naranja por vista; el productor y la vereda siempre visibles cuando hay una decisión de compra; textos de ayuda junto a los campos que generan dudas.</div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>
