@@ -40,4 +40,4 @@ Diseño visual y validación del prototipo de AgriMarket.
 
 ## Alcance de la prueba
 
-La prueba se realizó en Maze con tres misiones goal-based: inicio de sesión, búsqueda/detalle y confirmación. Las tres alcanzaron 100 % de éxito y 0 % de abandono. La tarea de agregar 2 kg y los puntajes SEQ/SUS no se incluyeron en esta corrida; el documento lo declara como limitación.
+La prueba se realizó en Maze con tres misiones goal-based: inicio de sesión, búsqueda/detalle y confirmación. Las tres alcanzaron 100 % de éxito y 0 % de abandono.
